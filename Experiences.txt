@@ -1,0 +1,272 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Experiences.aspx.cs" Inherits="WebApplication2.Experiences" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1,h2 {
+            font-family: 'Allura', cursive;
+            
+        }
+        p {
+            font-size:13px;
+        }
+.navbar {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+.div1 {
+    position:relative;
+    padding-left:1px;
+    padding-right:20px;
+    padding-bottom:10px;
+    padding-top:20px;
+    text-align: justify;
+    width: 100%;
+
+
+
+}
+
+.fig1 {
+    position: relative;
+    padding: 5px;
+    border: .5px solid grey;
+    margin: 15px 15px 15px 15px;
+    box-shadow: 0px 2px 2px 0px #757575;
+}
+.img1 {
+    position: relative;
+    padding-left:15px;
+    margin: 15px 15px 15px 0.5px;
+}
+
+
+
+
+.container {
+  position: relative;
+  width: 40%;
+ 
+}
+
+.img1 {
+  opacity: 1;
+ 
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .img1 {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background: black;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.link1 {
+    color: black;
+    text-decoration-line: none;
+    font-size: 30px;
+    
+}
+.link1:hover {
+    color: black;
+    text-decoration-line: none;
+    cursor: pointer;
+    
+}
+    </style>
+    <hr />
+    <h1><center>Unveil Experiences & Adventures with us</center></h1><br /><br />
+
+        <h1><center>Historical</center></h1>
+        <div class="div1">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                <figure class="fig1">
+                <img class="img1" src="imgs/Taj2.jpg" height="300" width="290"/>
+                <figcaption style="text-align: center";><b>Taj Mahal, Agra, Uttar Pradesh</b> 
+                <p>The Taj Mahal of Agra in India is one of the 7 wonders of the world and one of the most famous buildings in India, also known for its beautiful Mughal gardens,great gates and symbol of India’s rich history.</p>
+                
+                </figcaption></figure>
+                  <div class="middle">
+                    <div class="text">Take me here</div>
+                 </div>
+                 </div>
+
+
+                <div class="container">
+                <figure class="fig1">
+                <img class="img1" src="imgs/Qutub%20minar.jpg" height="300" width="290"/>
+                <figcaption style="text-align: center";><b>Qutub Minar, New Delhi</b> 
+                <p>Qutub Minar is the second tallest minar in India after Fateh Burj and the Qutb Complex, which is a UNESCO World Heritage Site. The complex of Qutub Minar is surrounded by several historically significant monuments</p>
+                </figcaption></figure>
+                  <div class="middle">
+                    <div class="text">Take me here</div>
+                 </div>
+                 </div>
+                
+                <div class="container">
+                <figure class="fig1">
+                <img class="img1" src="imgs/jaisalmer.jpg" height="300" width="290"/>
+                <figcaption style="text-align: center";><b>Jaisalmer Hill Fort, Rajasthan</b> 
+                <p>Jaisalmer Fort is situated in the city of Jaisalmer, in the Indian state of Rajasthan. It is believed to be one of the very few "living forts" in the world, as nearly one fourth of the old city's population still resides within the fort.</p>
+                
+                </figcaption></figure>
+                  <div class="middle">
+                    <div class="text">Take me here</div>
+                 </div>
+                 </div>
+
+
+                <div class="container">
+                <figure class="fig1">
+                <img class="img1" src="imgs/khajuraho.jpeg" height="300" width="290"/>
+                <figcaption style="text-align: center";><b>Khajuraho Group of Monuments , Madhaya Pradesh</b> 
+                <p>The Khajuraho Group of Monuments are famous for their nagara-style architectural symbolism and their erotic sculptures. Most Khajuraho temples were built between 885 AD and 1050 AD. </p>
+                </figcaption></figure>
+                  <div class="middle">
+                    <div class="text">Take me here</div>
+                 </div>
+                 </div>
+
+                </nav>
+        </div>
+
+    <br /><br />
+        
+
+        <h1><center>Adventure</center></h1>
+        <div class="div1">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                <figure class="fig1">
+                <img class="img1" src="imgs/trek.jpg" height="300" width="290"/>
+                <figcaption style="text-align: center";><b>Trekking</b> 
+                <p>India is land of many terrains. The foothills of the Himalayas offer world-class trekking trails to travelers and trekking exercises are coordinated with other fun exercises like water sports</p>
+                </figcaption></figure>
+                  <div class="middle">
+                    <div class="text">Take me here</div>
+                 </div>
+                 </div>
+
+                <div class="container">
+                <figure class="fig1">
+                <img class="img1" src="imgs/skydiving.jpg" height="300" width="290"/>
+
+                <figcaption style="text-align: center";><b>Sky Diving</b> 
+                <p>Indulge into the thrill of soaring in the sky at this beautiful lakeside city. Deesa – Gujarat is among the best destinations for skydiving in India that offers all three kinds of jumps. </p>
+                </figcaption></figure>
+                  <div class="middle">
+                    <div class="text">Take me here</div>
+                 </div>
+                 </div>
+
+                <div class="container">
+                <figure class="fig1">
+                <img class="img1" src="imgs/scuba.jpg" height="300" width="290"/>
+                <figcaption style="text-align: center";><b>Scuba Diving</b> 
+                <p>Situated right in the middle of the Indian Ocean and Bay of Bengal, this archipelago has a number of stunningly beautiful beaches and scuba diving spots, Havelock Islands being one of the most popular.</p>
+                
+                </figcaption></figure>
+                  <div class="middle">
+                    <div class="text">Take me here</div>
+                 </div>
+                 </div>
+
+                <div class="container">
+                <figure class="fig1">
+                <img class="img1" src="imgs/safari.jpg" height="300" width="290"/>
+                <figcaption style="text-align: center";><b>Jungle Safari</b> 
+                <p>The Ranthambore National Park in Rajasthan is home to a dwindling population of tigers. You get to see these majestic beasts in their natural habitat, making it all the more regal.</p>
+                </figcaption></figure>
+                  <div class="middle">
+                    <div class="text">Take me here</div>
+                 </div>
+                 </div>
+
+                </nav>
+        </div>
+
+    <br />  <br />
+            <h1><center>Beaches</center></h1>
+        <div class="div1">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                <figure class="fig1">
+                <img class="img1" src="imgs/Varkala%20beach.jpg" height="300" width="290"/>
+                <figcaption style="text-align: center";><b>Varkala Beach, Kerala</b> 
+                <p>The setting of this beach is striking enough to take your breath away, with a seemingly endless paved stretch of cliff bordered by shacks on one side and views that extend over the Arabian Sea on the other.</p>
+                </figcaption></figure>
+                  <div class="middle">
+                    <div class="text">Take me here</div>
+                 </div>
+                 </div>
+
+                <div class="container">
+                <figure class="fig1">
+                <img class="img1" src="imgs/Palolem_beach.jpg" height="300" width="290"/>
+
+                <figcaption style="text-align: center";><b>Palolem Beach, Goa</b> 
+                <p>The beach continues to grow in popularity every year and is the most lively beach in South Goa. However, it still retains its relaxed vibe, as permanent structures aren't allowed to be built on it.</p>
+                </figcaption></figure>
+                  <div class="middle">
+                    <div class="text">Take me here</div>
+                 </div>
+                 </div>
+
+                <div class="container">
+                <figure class="fig1">
+                <img class="img1" src="imgs/auroville-beach1.jpg" height="300" width="290"/>
+                <figcaption style="text-align: center";><b>Auroville Beach, Tamil Nadu</b> 
+                <p>The historic French Quarter in town is a highlight, while nearby Auroville and Paradise beaches are great for swimming. Also check out the pristine beaches at Mahe, Yanam and Karaikal.</p>
+                
+                </figcaption></figure>
+                  <div class="middle">
+                    <div class="text">Take me here</div>
+                 </div>
+                 </div>
+
+                <div class="container">
+                <figure class="fig1">
+                <img class="img1" src="imgs/TARKARLI.jpg" height="300" width="290"/>
+                <figcaption style="text-align: center";><b>Tarkarli Beach, Maharashtra</b> 
+                <p>The vicinity of Tarkarli beach in southern Maharashtra has one of the best coral reefs on the Indian mainland. The simple homestay accommodations right on the beach are a delight.</p>
+                </figcaption></figure>
+                  <div class="middle">
+                    <div class="text">Take me here</div>
+                 </div>
+                 </div>
+
+                </nav>
+        </div>
+    <br />
+    <a class="link1"><p><center>Explore More >></center></p></a>
+  
+
+
+</asp:Content>
