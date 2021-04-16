@@ -22,5 +22,9 @@ namespace TrialTours.Controllers
         {
             return View();
         }
+        public ActionResult PrivacyPolicy()
+        {
+            return View();
+        }
     }
 }
