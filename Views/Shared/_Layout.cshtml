@@ -21,22 +21,22 @@
 
 
         .secondDiv {
-            background-color: black;
+            background-color: white;
             height: 100px;
         }
 
         .s2 {
-            background-color: black;
-            padding-top: 10px;
+            background-color: white;
+            padding-top: 1px;
             padding-left: 20px;
             padding-right: 22px;
         }
 
         .s3 {
-            padding-top: 18px;
-            background-color: black;
+            padding-top: 10px;
+            background-color: white;
             height: 100px;
-            color: darkgrey;
+            color: black;
             text-align: center;
             font-size: 40px;
             font-family: 'Allura', cursive;
@@ -53,8 +53,9 @@
             border-radius: 10px;
             border: 3px solid black;
             position: absolute;
-            left: 260px;
+            left: 369px;
             width: 10%;
+            height: 45px;
             box-shadow: 0px 2px 4px 0px #757575;
             cursor: pointer;
         }
@@ -64,19 +65,22 @@
             border-radius: 10px;
             border: 3px solid black;
             position: absolute;
-            left: 435px;
+            left: 445px;
             width: 10%;
+            height: 45px;
             box-shadow: 0px 2px 4px 0px #757575;
             cursor: pointer;
         }
+        
 
         .options3 {
             background-color: transparent;
             border-radius: 10px;
             border: 3px solid black;
             position: absolute;
-            left: 610px;
+            left: 710px;
             width: 10%;
+            height: 45px;
             box-shadow: 0px 2px 4px 0px #757575;
             cursor: pointer;
         }
@@ -86,7 +90,8 @@
             border-radius: 10px;
             border: 3px solid black;
             position: absolute;
-            left: 785px;
+            height: 45px;
+            left: 885px;
             width: 10%;
             box-shadow: 0px 2px 4px 0px #757575;
             cursor: pointer;
@@ -97,8 +102,9 @@
             border-radius: 10px;
             border: 3px solid black;
             position: absolute;
-            left: 960px;
+            left: 1060px;
             width: 10%;
+            height: 45px;
             box-shadow: 0px 2px 4px 0px #757575;
             cursor: pointer;
         }
@@ -108,8 +114,9 @@
             border-radius: 10px;
             border: 3px solid black;
             position: absolute;
-            left: 1135px;
+            left: 1140px;
             width: 10%;
+            height: 45px;
             box-shadow: 0px 2px 4px 0px #757575;
             cursor: pointer;
         }
@@ -119,8 +126,9 @@
             border-radius: 10px;
             border: 3px solid black;
             position: absolute;
-            left: 1205px;
+            left: 1210px;
             width: 10%;
+            height: 45px;
             box-shadow: 0px 2px 4px 0px #757575;
             cursor: pointer;
         }
@@ -210,7 +218,7 @@
 
             .prev:hover,
             .next:hover {
-                background-color: rgba(0, 0, 0, 0.8);
+                background-color: rgba(0,0,0,0.8);
             }
 
 
@@ -283,9 +291,10 @@
             border-radius: 10px;
             border: 3px solid black;
             position: absolute;
-            left: 235px;
-            top: -15px;
+            left: 325px; /*325*/
+            top: -23px;
             width: 150px;
+            height: 45px;
             box-shadow: 0px 2px 4px 0px #757575;
             cursor: pointer;
         }
@@ -295,14 +304,13 @@
             display: none;
             min-width: 160px;
             z-index: 1;
-            background-color: white;
+            background-color: rgba(255,255,255,0.7);
             border-radius: 5px;
-            border: 3px solid black;
             position: absolute;
-            width: 10px;
+            width: 100%;
             box-shadow: 0px 2px 4px 0px #757575;
             cursor: pointer;
-            left: 235px;
+            left: 325px;
             top: 20px;
             height: 400px;
             overflow: auto;
@@ -314,10 +322,12 @@
                 padding: 12px 16px;
                 text-decoration: none;
                 display: block;
+                width: 100%;
             }
 
                 .dropdown-content a:hover {
-                    background-color: white;
+                    background-color: black;
+                    color: white;
                 }
 
         .dropdown:hover .dropdown-content {
@@ -368,6 +378,23 @@
                 text-decoration-line: underline;
                 cursor: pointer;
             }
+        .my-class:link, .my-class:visited {
+            color: black;
+            text-decoration-line: none;
+        }
+        .my-class:hover {
+            color: white;
+        }
+        .secndClass:link, .secndClass:visited {
+            color: black;
+            text-decoration-line: none;
+        }
+        .secndClass:hover {
+            color: black;
+            text-decoration-line: underline;
+
+        }
+
     </style>
 </head>
 
@@ -425,31 +452,20 @@
                 </div>
 
                 <button type="submit" value="Submit" class="options3">
-                    <i class="fas fa-fire-alt">Experiences</i>
+                    <i class="fas fa-fire-alt">@Html.ActionLink("Experiences", "Experiences", "Home", new { id = "OT", style = "color: black; text-decoration:none" },new { @class = "my-class" })</i>
                 </button>
                 <button type="submit" value="Submit" class="options4"><i class="fas fa-image">Gallery</i></button>
                 <button type="submit" value="Submit" class="options5"><i class="fa fa-phone-alt">Contact Us</i></button>
-                <button type="submit" value="Submit" class="options6"><i class="fas fa-id-card-alt">About Us</i></button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <img class="imageBell"
-                                     src="Image/Layout/iconfinder_icon-ios7-bell_211694.png" height="30" width="30" />
-                            </a>
-                        </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <img class="imageUser" src="Image/Layout/user.png" height="30"
-                                     width="30" />
+                                <img class="imageUser" src="Image/Layout/user.png" height="50" width="50" />
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <img class="imageContact"
-                                     src="Image/Layout/phone-removebg-preview%20(1).png" height="28" width="28" />
-                            </a>
+                            
                             <form class="d-flex">
                             </form>
 </div>
@@ -517,7 +533,7 @@
                                 <td><br /><a class="link">Diversity & Belonging</a></td>
                                 <td><br /><a class="link">Host your home</a></td>
                                 <td><br /><a class="link">Our COVID-19 Response</a></td>
-                                <td><br /><a class="link">Terms & Conditions</a></td>
+                                <td><br /><a class="link"> @Html.ActionLink("Terms & Conditions", "TermsConditions", "Home", new { id = "OT", style = "color: black; text-decoration:none" }, new { @class = "secndClass" })</a></td>
 
                             </tr>
                             <tr>
@@ -525,14 +541,14 @@
                                 <td><br /><a class="link">Accessibility</a></td>
                                 <td><br /><a class="link">Host an Online Experience</a></td>
                                 <td><br /><a class="link">Help Centre</a></td>
-                                <td><br /><a class="link">Privacy Policy</a></td>
+                                <td><br /><a class="link"> @Html.ActionLink("Privacy Policy","PrivacyPolicy","Home", new { id = "OT", style = "color: black; text-decoration:none"},new { @class = "secndClass" })</a></td>
                             </tr>
                             <tr>
                                 <td><br /><a class="link">Investors</a></td>
                                 <td><br /><a class="link">Frontline Stays</a></td>
                                 <td><br /><a class="link">Responsible hosting</a></td>
                                 <td><br /><a class="link">Cancellation options</a></td>
-                                <td><br /><a class="link">Cookie Consent</a></td>
+                                <td><br /><a class="link">@Html.ActionLink("Cookie Consent", "CookieConsent", "Home", new { id = "OT", style = "color: black; text-decoration:none" }, new { @class = "secndClass" })</a></td>
                             </tr>
 
                             <tr>
