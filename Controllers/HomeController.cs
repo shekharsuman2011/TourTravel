@@ -26,5 +26,17 @@ namespace TrialTours.Controllers
         {
             return View();
         }
+        public ActionResult TermsConditions()
+        {
+            return View();
+        }
+        public ActionResult CookieConsent()
+        {
+            return View();
+        }
+        public ActionResult Experiences()
+        {
+            return View();
+        }
     }
 }
