@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Chhattisgarh
+        </title>
+        <link rel="stylesheet" href="chhattisgarh.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <!-- BACKGROUND IMAGE -->
+            <div id="top-section-main">
+
+                <div id="top-section-content">
+                    <h1> Chitrakot waterfalls, Chitrakote </h1>
+                    <h2> Chhattisgarh </h2>
+                </div>
+            </div>
+            <!-- PLACES TO VISIT SECTION -->
+            <div id="feature-section">
+                <h1 class="feature-section-title"> The top places to visit in <i>Chhattisgarh</i></h1>
+                <div class="feature-content">
+                    <div class="cols-3">
+                        <img src="sirpur.jpg"> 
+                        <h3> Sirpur </h3>
+                        <p>  Sirpur was capital of Panduvanshi dynasty in ancient times. The site has been significant for its temple ruins of Rama and Lakshmana of the Ramayana fame, as well as those related to Shaivism, Shaktism, Buddhism and Jainism. </p>
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="narhara falls.jpg"> 
+                        <h3> Narhara falls </h3>
+                        <p> Narhara waterfalls lies near the bank of river Mahanadi. Mahanadi the lifeline of Chhattisgarh & tributary of Chhattisgarh irrigation more than 70% of the state distance from dhamtri is 25km best picnic spot and nearest waterfall from raipur. </p>  
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="tiratgarh falls.jpg"> 
+                        <h3> Tirathgarh falls </h3>
+                        <p> Chhattisgarh is famous for its waterfalls. One of these magnificent falls is the Tirathgarh Waterfall. The fall here splits into multiple falls, creating a stunning vista.</p>
+                    </div>
+                    <div class="cols-3">  
+                        <img src="rajeev van.jpg"> 
+                        <h3> Rajeev van </h3>
+                        <p> This is one of the famous place in Raipur. This place is famous because of the trees which are planted in memory of soldiers who were killed. This is just look like a park however when you see the trees they are really huge. </p>
+                    </div>    
+                </div>
+            </div>
+            <!-- MAP SECTION -->
+            <div id = "showcase1-container">
+                <div class="showcase">
+                    <div class="cols-2">
+                        <iframe class="showcase1-pic" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815846.384741192!2d80.07574290474389!3d20.935944041016107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a261f16c67a8bad%3A0x5c23f412fb179d95!2sChhattisgarh!5e0!3m2!1sen!2sin!4v1618238212349!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="cols-2">
+                        <div class="feature-text">
+                        <h1 class="section-title">
+                            Facts of Chhattisgarh
+                        </h1>
+                        <p class="section-content">
+                            <ul class="section-content-list">
+                                <li>
+                                    Chhattisgarh is the 10<sup>th</sup> largest state in India.
+                                </li>
+                                <li>
+                                   Home to famous Kosa Silks.
+                                </li>
+                                <li>
+                                    15% of steel is produced in Chhattisgarh.
+                                </li>
+                                <li>
+                                    Chhattisgarh's film industry is called Chollywood. 
+                                </li>
+                                <li>
+                                   The birthplace of Saint Vallabhacharya.
+                                </li>
+                            </ul>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feature-section2">
+                <h1 class="feature-section2-title">
+                    More about <i>Chhattisgarh.. </i>  <br><br>
+                </h1>
+                <div class="slideshow">
+                    <div class="mySlides">
+                        <img src="chhattisgarh.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State : Chhattisgarh</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="nayaraipur.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State's Capital : Naya Raipur</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="27districts.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> No. of districts of State : 27</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="raipur.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State's largest district : Raipur </div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="chhattisgarhi.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State's official language : Chhattisgarhi</div>
+                    </div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+                <br><br>
+                <a href="#" class="BookTicketBtn" style="text-align:center; margin:auto;"> BOOK YOUR TICKETS TODAY!! </a>
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}    
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 2500); // Change image every 2.5 seconds
+                    }
+                </script>
+            </div>
+            <!-- LAST SECTION -->
+            <br><br><br><br><br>
+            <!-- LAST SECTION -->
+            <div id="call-to-action">
+                <div class="showcase">
+                    <div class="cols-1">
+                        <h1 class="action-title">
+                            What are you waiting for??
+                        </h1>
+                        <p style="line-height: 1.2em;"> 
+                            Book your tickets, pack your bags and
+                            Get.. Set.. GO!! 
+                            The waterfalls of Chhattisgarh is waiting for you!!
+                        </p>
+                        <P>
+                        <a href="#" class="BookHotelBtn"> BOOK A HOTEL TODAY!! </a>
+                        </P>
+                        <div class="text" style="margin-top: -50px;"> <p style="font-weight: 1000; font-style:italic;"> Naya Raipur - Chhattisgarh </p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Goa
+        </title>
+        <link rel="stylesheet" href="goa.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <!-- BACKGROUND IMAGE -->
+            <div id="top-section-main">
+
+                <div id="top-section-content">
+                    <h1> Baga Beach </h1>
+                    <h2> Goa </h2>
+                </div>
+            </div>
+            <!-- PLACES TO VISIT SECTION -->
+            <div id="feature-section">
+                <h1 class="feature-section-title"> The top places to visit in <i>Goa</i></h1>
+                <div class="feature-content">
+                    <div class="cols-3">
+                        <img src="arambol.jpg"> 
+                        <h3> Arambol beach </h3>
+                        <p>  Arambol Beach is famous for its sweet water lagoon, or the Paliem sweet water lake.  </p>
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="chapora.jpg"> 
+                        <h3> Chapora fort </h3>
+                        <p> The site was the location of a fort built by Muslim ruler Adil Shah called Shahpura, whose name the Portuguese altered to Chapora. It is now become a popular tourist spot and offers a view north across the Chapora river to Pernem, south over Vagator and also far out to the Arabian Sea in the West.</p>  
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="fort agudada.jpg"> 
+                        <h3> Agudada fort </h3>
+                        <p> Fort Aguada was the most prized and crucial fort of Portuguese. The fort is so large that it envelops the entire peninsula at the southwestern tip of Bardez.</p>
+                    </div>
+                    <div class="cols-3">  
+                        <img src="dudhsagar.jpg"> 
+                        <h3> Dudhsagar waterfalls </h3>
+                        <p> Dudhsagar Falls is amongst India's tallest waterfalls with a height of 310 m (1017 feet) and an average width of 30 metres (100 feet). The falls is located in the Bhagwan Mahaveer Sanctuary and Mollem National Park among the Western Ghats. </p>
+                    </div>    
+                </div>
+            </div>
+            <!-- MAP SECTION -->
+            <div id = "showcase1-container">
+                <div class="showcase">
+                    <div class="cols-2">
+                        <iframe class="showcase1-pic" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984973.5468073568!2d73.45176304692203!3d15.3465130636479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfba106336b741%3A0xeaf887ff62f34092!2sGoa!5e0!3m2!1sen!2sin!4v1618239121402!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="cols-2">
+                        <div class="feature-text">
+                        <h1 class="section-title">
+                            Facts of Goa
+                        </h1>
+                        <p class="section-content">
+                            <ul class="section-content-list">
+                                <li>
+                                    Over 1/3<sup>rd</sup> of Goa is forest.
+                                </li>
+                                <li>
+                                    It is home to around 400 species of birds.
+                                </li>
+                                <li>
+                                    First printing press was established in Goa.
+                                </li>
+                                <li>
+                                    The non-decomposing body of St. Francis Xavier.
+                                </li>
+                                <li>
+                                    The most populated destination in India during vacations.
+                                </li>
+                            </ul>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feature-section2">
+                <h1 class="feature-section2-title">
+                    More about <i>Goa.. </i>  <br><br>
+                </h1>
+                <div class="slideshow">
+                    <div class="mySlides">
+                        <img src="goa.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State : Goa</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="panaji.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State's Capital : Panaji</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="2districts.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> No. of districts of State : 2</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="vascodagama.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State's largest district : Vasco Da Gama </div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="marathi.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State's official language : Marathi</div>
+                    </div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+                <br><br>
+                <a href="#" class="BookTicketBtn" style="text-align:center; margin:auto;"> BOOK YOUR TICKETS TODAY!! </a>
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}    
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 2500); // Change image every 2.5 seconds
+                    }
+                </script>
+            </div>
+            <!-- LAST SECTION -->
+            <br><br><br><br><br>
+            <!-- LAST SECTION -->
+            <div id="call-to-action">
+                <div class="showcase">
+                    <div class="cols-1">
+                        <h1 class="action-title">
+                            What are you waiting for??
+                        </h1>
+                        <p style="line-height: 1.2em;">
+                            Book your tickets, pack your bags and
+                            Get.. Set.. GO!! 
+                            If you love sunsets and beaches, Goa is the place for you and is waiting for you!!
+                        </p>
+                        <P>
+                        <a href="#" class="BookHotelBtn"> BOOK A HOTEL TODAY!! </a>
+                        </P>
+                        <div class="text"> <p style="font-weight: 1000; font-style:italic;"> Calangute Beach - Goa </p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

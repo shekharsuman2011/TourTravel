@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Telangana
+        </title>
+        <link rel="stylesheet" href="telangana.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <!-- BACKGROUND IMAGE -->
+            <div id="top-section-main">
+
+                <div id="top-section-content">
+                    <h1> Chaar Minar, Hyderabad</h1>
+                    <h2> Telangana </h2>
+                </div>
+            </div>
+            <!-- PLACES TO VISIT SECTION -->
+            <div id="feature-section">
+                <h1 class="feature-section-title"> The top places to visit in <i>Telangana</i></h1>
+                <div class="feature-content">
+                    <div class="cols-3">
+                        <img src="hyderabad.jpg"> 
+                        <h3> Hyderabad </h3>
+                        <p> The city is noted for its monuments which includes the masterpiece of Charminar and the fort of Golconda. Hyderabad is known as The City of Pearls </p>
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="secunderabad.jpg"> 
+                        <h3> Secunderabad </h3>
+                        <p> Secunderabad, also known as the "twin city of Hyderabad", is a city that was established during the 18th century. This magnificent city, rich in history, once served as an important base for the British army. </p>  
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="warangal.jpg"> 
+                        <h3> Warangal </h3>
+                        <p> The second-fastest growing city of newly-formed state Telangana, Warangal is best known for the history attached to it. Orukal was the old name given to it when it was the capital city of the Kakatiyas. </p>
+                    </div>
+                    <div class="cols-3">  
+                        <img src="kanakaiwaterfalls.jpg"> 
+                        <h3> Kanakai Waterfalls </h3>
+                        <p> Located on Kadem River, Kanakai Waterfalls is a famous picnic spot near Hyderabad. It is situated around 280 kilometers from Hyderabad and lies in the Adilabad District of Telangana. </p>
+                    </div>    
+                </div>
+            </div>
+            <!-- MAP SECTION -->
+            <div id = "showcase1-container">
+                <div class="showcase">
+                    <div class="cols-2">
+                        <iframe class="showcase1-pic" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888615.477262815!2d77.27741277076495!3d17.86318026519947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3350db9429ed43%3A0x63ef7ba741594059!2sTelangana!5e0!3m2!1sen!2sin!4v1618392849354!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="cols-2">
+                        <div class="feature-text">
+                        <h1 class="section-title">
+                            Facts of Telangana
+                        </h1>
+                        <p class="section-content">
+                            <ul class="section-content-list">
+                                <li>
+                                   The new state is Telangana, the fifth in southern India (the other four being Tamil Nadu, Karnataka, Kerala and Seemandhra).
+                                </li>
+                                <li>
+                                   Telangana (meaning 'Land of Telugus') will be the 28th state of the Indian republic. 
+                                </li>
+                                <li>
+                                   The population of Telangana is 3.52 crores (as per the 2011 census), which makes it the 12th most populous in India.
+                                </li>
+                                <li>
+                                   November to February is the best time to visit Telangana region.
+                                </li>
+                                <li>
+                                   Telangana has 86% Hindu, 12% Muslim and 1% Christian population.
+                                </li>
+                            </ul>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feature-section2">
+                <h1 class="feature-section2-title">
+                    More about <i>Telangana.. </i>  <br><br>
+                </h1>
+                <div class="slideshow">
+                    <div class="mySlides">
+                        <img src="telangana.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> State : Telangana</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="hyderabadd.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> State's Capital : Hyderabad</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="31districts.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> No. of districts of State : 31</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="hyderaabad.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> State's largest district : Hyderabad </div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="teluguurdu.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> State's official language : Telegu & Urdu</div>
+                    </div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+                <br><br>
+                <a href="#" class="BookTicketBtn" style="text-align:center; margin:auto;"> BOOK YOUR TICKETS TODAY!! </a>
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}    
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 2500); // Change image every 2.5 seconds
+                    }
+                </script>
+            </div>
+            <!-- LAST SECTION -->
+            <br><br><br><br><br>
+            <!-- LAST SECTION -->
+            <div id="call-to-action">
+                <div class="showcase">
+                    <div class="cols-1">
+                        <h1 class="action-title" style="color:white;">
+                            What are you waiting for??
+                        </h1>
+                        <p style="line-height:1.2em; margin-top:-100px; color:black;">
+                            Book your tickets, pack your bags and
+                            Get.. Set.. GO!! 
+                            If you are fond of renowned historical structures like Chaar Minar, Qutub Fort, etc.,  then Telangana is definitely the place for you, and it is waiting for you!!
+                        </p>
+                        <P>
+                        <a href="#" class="BookHotelBtn"> BOOK A HOTEL TODAY!! </a>
+                        </P>
+                        <div class="text"> <p style="font-weight:1000; font-style:italic; color:white; margin-top:-70px;"> Nalgonda - Telangana </p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

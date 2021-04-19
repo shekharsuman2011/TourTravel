@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Gujarat
+        </title>
+        <link rel="stylesheet" href="gujarat.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <!-- BACKGROUND IMAGE -->
+            <div id="top-section-main">
+
+                <div id="top-section-content">
+                    <h1> Ahemdabad </h1>
+                    <h2> Gujarat </h2>
+                </div>
+            </div>
+            <!-- PLACES TO VISIT SECTION -->
+            <div id="feature-section">
+                <h1 class="feature-section-title"> The top places to visit in <i>Gujarat</i></h1>
+                <div class="feature-content">
+                    <div class="cols-3">
+                        <img src="kutch.jpg"> 
+                        <h3> Kutch </h3>
+                        <p>  The architectural grandeur, cultural marvel, and sumptuous cuisine are bound to make it difficult for you to leave.  Kutch lies on the India-Pakistan border, and you can see parts of Pakistan from here.  </p>
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="vadodara.jpg"> 
+                        <h3> Vadodara </h3>
+                        <p> Known all over the world for its magnificent palaces, glorious past, and rich culture, the beautiful city of Vadodara happens to be one of the top places to visit in Gujarat for a peaceful and tranquilizing holiday. </p>  
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="rajkot.jpg"> 
+                        <h3> Rajkot </h3>
+                        <p> A huge metropolitan city of Gujarat, Rajkot, is a must-visit for every tourist. The city was prominent in the Indian Independence movement, being home to several leaders who participated in India's freedom struggle.</p>
+                    </div>
+                    <div class="cols-3">  
+                        <img src="Bhuj.jpg"> 
+                        <h3> Bhuj </h3>
+                        <p> Founded in 1510 by Rao Hamir, the city of Bhuj is one of the best culturally rich places to visit in Gujarat. The city is located in the Kutch region of the state and was once the capital of Kutch. </p>
+                    </div>    
+                </div>
+            </div>
+            <!-- MAP SECTION -->
+            <div id = "showcase1-container">
+                <div class="showcase">
+                    <div class="cols-2">
+                        <iframe class="showcase1-pic" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777265.1995792314!2d69.07429401878996!3d22.40132482058905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959051f5f0ef795%3A0x861bd887ed54522e!2sGujarat!5e0!3m2!1sen!2sin!4v1618240412256!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="cols-2">
+                        <div class="feature-text">
+                        <h1 class="section-title">
+                            Facts of Gujarat
+                        </h1>
+                        <p class="section-content">
+                            <ul class="section-content-list">
+                                <li>
+                                    Founded by Lord Krishna, Dwarka is said to have existed more than 10,000 years ago and is believed to be the first capital of Gujarat.
+                                </li>
+                                <li>
+                                    Gujarat is derived from a Sanskrit word.
+                                </li>
+                                <li>
+                                    Non-alcholic and vegan state.
+                                </li>
+                                <li>
+                                    Home to asiatic lions.
+                                </li>
+                                <li>
+                                    Safest state in India.
+                                </li>
+                            </ul>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feature-section2">
+                <h1 class="feature-section2-title">
+                    More about <i>Gujarat.. </i>  <br><br>
+                </h1>
+                <div class="slideshow">
+                    <div class="mySlides">
+                        <img src="gujarat.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State : Gujarat</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="gandhinagar.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State's Capital : Gandhi Nagar</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="27districts.jpeg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> No. of districts of State : 27</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="ahemdabadd.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State's largest district : Ahemdabad </div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="gujarati.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State's official language : Gujarati</div>
+                    </div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+                <br><br>
+                <a href="#" class="BookTicketBtn" style="text-align:center; margin:auto;"> BOOK YOUR TICKETS TODAY!! </a>
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}    
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 2500); // Change image every 2.5 seconds
+                    }
+                </script>
+            </div>
+            <!-- LAST SECTION -->
+            <br><br><br><br><br>
+            <!-- LAST SECTION -->
+            <div id="call-to-action">
+                <div class="showcase">
+                    <div class="cols-1">
+                        <h1 class="action-title">
+                            What are you waiting for??
+                        </h1>
+                        <p style="line-height:1.2em;">
+                            Book your tickets, pack your bags and
+                            Get.. Set.. GO!! 
+                            If you are fond of traditional clothing, accessories and festivals, Gujarat is the place for you and it is waiting for you!!
+                        </p>
+                        <P>
+                        <a href="#" class="BookHotelBtn"> BOOK A HOTEL TODAY!! </a>
+                        </P>
+                        <div class="text"> <p style="font-weight: 1000; font-style: italic;"> Kutch - Gujarat </p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

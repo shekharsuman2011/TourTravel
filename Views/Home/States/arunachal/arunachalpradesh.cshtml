@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Arunachal Pradesh
+        </title>
+        <link rel="stylesheet" href="arunachal.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <!-- BACKGROUND IMAGE -->
+            <div id="top-section-main">
+
+                <div id="top-section-content">
+                    <h1> Pasighat, East Siang district </h1>
+                    <h2> Arunachal Pradesh </h2>
+                </div>
+            </div>
+            <!-- PLACES TO VISIT SECTION -->
+            <div id="feature-section">
+                <h1 class="feature-section-title"> The top places to visit in <i>Arunachal Pradesh</i></h1>
+                <div class="feature-content">
+                    <div class="cols-3">
+                        <img src="tawang.jpg"> 
+                        <h3> Tawang </h3>
+                        <p> It is famous for its 400-year-old monastery. This monastery is one of the biggest Buddhist monasteries to be found in India and is an important pilgrim center for the followers of Buddhism. </p>
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="itnagar.jpg"> 
+                        <h3> Itanagar </h3>
+                        <p> Itanagar is also known for showcasing the rich tribal culture of the state. Gekar sinyi (Ganga Lake) is a beautiful natural lake which literally means confined lake in the Nyishi dialect. It is surrounded by a landmass of hard rock.</p>  
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="bhalukpong.jpg"> 
+                        <h3> Bhalukpong </h3>
+                        <p> Bhalukpong is a beautiful town in the West Kameng district of Arunachal Pradesh. It is known for its scenic beauty, the Sessa Orchid Sanctuary and the Pakhui Wildlife Sanctuary.</p>
+                    </div>
+                    <div class="cols-3">  
+                        <img src="national park.jpg"> 
+                        <h3> Namdapha National Park </h3>
+                        <p>  Namdapha National Park is famous for being the only park in India to have four big cat species, like leopard, tiger, clouded leopard and snow leopard.</p>
+                    </div>    
+                </div>
+            </div>
+            <!-- MAP SECTION -->
+            <div id = "showcase1-container">
+                <div class="showcase">
+                    <div class="cols-2">
+                        <iframe class="showcase1-pic" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607396.1446248265!2d92.23398312123518!3d27.998552645778133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374043466a1c7227%3A0x76b56e552f9a92f2!2sArunachal%20Pradesh!5e0!3m2!1sen!2sin!4v1618238352929!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="cols-2">
+                        <div class="feature-text">
+                        <h1 class="section-title">
+                            Facts of Arunachal <div style="padding-left:60px;"> Pradesh </div>
+                        </h1>
+                        <p class="section-content">
+                            <ul class="section-content-list">
+                                <li>
+                                    It has a forest cover of 82%.
+                                </li>
+                                <li>
+                                    Largest north-eastern state with an area of 83,743 sq km.
+                                </li>
+                                <li>
+                                    Inhabited by 26 major tribes and 100 sub-tribes.
+                                </li>
+                                <li>
+                                    Longest river bridge named DHOLA-SADIYA, connects Arunachal Pradesh with Assam. 
+                                </li>
+                                <li>
+                                    English is the only official language of Arunachal Pradesh.
+                                </li>
+                            </ul>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feature-section2">
+                <h1 class="feature-section2-title">
+                    More about <i>Arunachal Pradesh.. </i>  <br><br>
+                </h1>
+                <div class="slideshow">
+                    <div class="mySlides">
+                        <img src="ArunachalPradesh.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State : Arunachal Pradesh</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="itanagarr.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State's Capital : Itanagar</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="22districts.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> No. of districts of State : 22</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="itaanagar.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State's largest district : Itanagar </div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="english.jpg" width="950" height="450" style="width:100%;">
+                        <div class="caption"> State's official language : English</div>
+                    </div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+                <br><br>
+                <a href="#" class="BookTicketBtn" style="text-align:center; margin:auto;"> BOOK YOUR TICKETS TODAY!! </a>
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}    
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 2500); // Change image every 2.5 seconds
+                    }
+                </script>
+            </div>
+            <!-- LAST SECTION -->
+            <br><br><br><br><br>
+            <!-- LAST SECTION -->
+            <div id="call-to-action">
+                <div class="showcase">
+                    <div class="cols-1">
+                        <h1 class="action-title">
+                            What are you waiting for??
+                        </h1>
+                        <p style="line-height:1.2em;">
+                            Book your tickets, pack your bags and
+                            Get.. Set.. GO!! 
+                            The mountains of Arunachal Pradesh is waiting for you!!
+                        </p>
+                        <P>
+                        <a href="#" class="BookHotelBtn"> BOOK A HOTEL TODAY!! </a>
+                        </P>
+                        <div class="text"> <p style="font-weight:1000; font-style:italic;"> Itanagar - Arunachal Pradesh </p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

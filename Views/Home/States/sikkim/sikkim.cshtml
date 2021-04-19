@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Sikkim
+        </title>
+        <link rel="stylesheet" href="sikkim.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <!-- BACKGROUND IMAGE -->
+            <div id="top-section-main">
+
+                <div id="top-section-content">
+                    <h1> Gangtok </h1>
+                    <h2> Sikkim </h2>
+                </div>
+            </div>
+            <!-- PLACES TO VISIT SECTION -->
+            <div id="feature-section">
+                <h1 class="feature-section-title"> The top places to visit in <i>Sikkim</i></h1>
+                <div class="feature-content">
+                    <div class="cols-3">
+                        <img src="pelling.jpg"> 
+                        <h3> Pelling </h3>
+                        <p> It is an old monastery which has been standing tall since 1705. It is one of the most famous shrines in West Sikkim and a must visit when in the region. </p>
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="nathulapass.jpg"> 
+                        <h3> Nathula Pass </h3>
+                        <p> The Nathula Pass has played a crucial role in strengthening the economy of India and has also helped in improving the border relations with China. It also plays a very significant role in the Sino-Indian trade. </p>  
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="tsomgolake.jpg"> 
+                        <h3> Tsomgo Lake </h3>
+                        <p> Tsomgo Lake is known for its legendary beauty. In winter the lake remains frozen solid with the area around it covered in snow. </p>
+                    </div>
+                    <div class="cols-3">  
+                        <img src="yuksom.jpg"> 
+                        <h3> Yuksom </h3>
+                        <p> For the Bhutia community of Sikkim, Yuksom has special religious and cultural significance. It has a number of famous Buddhist monasteries and historical monuments as well as ancient Gorkhas small Village.</p>
+                    </div>    
+                </div>
+            </div>
+            <!-- MAP SECTION -->
+            <div id = "showcase1-container">
+                <div class="showcase">
+                    <div class="cols-2">
+                        <iframe class="showcase1-pic" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d905182.2051965691!2d87.90665964756055!3d27.597622078133657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e6a56a5805eafb%3A0xa4c4b857c39b5a04!2sSikkim!5e0!3m2!1sen!2sin!4v1618390547139!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="cols-2">
+                        <div class="feature-text">
+                        <h1 class="section-title">
+                            Facts of Sikkim
+                        </h1>
+                        <p class="section-content">
+                            <ul class="section-content-list">
+                                <li>
+                                   In 1976, Sikkim became the 22<sup>nd</sup> state of India.
+                                </li>
+                                <li>
+                                   In 2015, Sikkim became the 1<sup>st</sup> organic state of India.
+                                </li>
+                                <li>
+                                   Sikkim has over 552 different species of birds and about 690 species of butterflies.
+                                </li>
+                                <li>
+                                   The state has 28 mountain peaks, and has more than 80 glaciers.
+                                </li>
+                                <li>
+                                    Sikkim is one of the few states of India which receives regular snowfall.
+                                </li>
+                            </ul>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feature-section2">
+                <h1 class="feature-section2-title">
+                    More about <i>Sikkim.. </i>  <br><br>
+                </h1>
+                <div class="slideshow">
+                    <div class="mySlides">
+                        <img src="sikkim.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> State : Sikkim</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="gangtokk.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> State's Capital : Gangtok</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="4districts.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> No. of districts of State : 4</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="gangtook.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> State's largest district : Gangtok </div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="englishnepali.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> State's official language : English & Nepali</div>
+                    </div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+                <br><br>
+                <a href="#" class="BookTicketBtn" style="text-align:center; margin:auto;"> BOOK YOUR TICKETS TODAY!! </a>
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}    
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 2500); // Change image every 2.5 seconds
+                    }
+                </script>
+            </div>
+            <!-- LAST SECTION -->
+            <br><br><br><br><br>
+            <!-- LAST SECTION -->
+            <div id="call-to-action">
+                <div class="showcase">
+                    <div class="cols-1">
+                        <h1 class="action-title" style="color:black;">
+                            What are you waiting for??
+                        </h1>
+                        <p style="line-height:1.2em; margin-top:-100px; color:black">
+                            Book your tickets, pack your bags and
+                            Get.. Set.. GO!! 
+                            If you love mountains and snow, then Sikkim is definitely the place for you, and it is waiting for you!!
+                        </p>
+                        <P>
+                        <a href="#" class="BookHotelBtn"> BOOK A HOTEL TODAY!! </a>
+                        </P>
+                        <div class="text"> <p style="font-weight:1000; font-style:italic; color:black; margin-top:-70px;"> Soreng - Sikkim </p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

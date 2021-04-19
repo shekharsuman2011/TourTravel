@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Jammu and Kashmir
+        </title>
+        <link rel="stylesheet" href="jammu.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <!-- BACKGROUND IMAGE -->
+            <div id="top-section-main">
+
+                <div id="top-section-content">
+                    <h1> Kargil </h1>
+                    <h2> Jammu and Kashmir </h2>
+                </div>
+            </div>
+            <!-- PLACES TO VISIT SECTION -->
+            <div id="feature-section">
+                <h1 class="feature-section-title"> The top places to visit in <i>Jammu and Kashmir</i></h1>
+                <div class="feature-content">
+                    <div class="cols-3">
+                        <img src="gulmarg.jpg"> 
+                        <h3> Gulmarg </h3>
+                        <p> Nestled in the vicinity of the Himalayan state of Jammu & Kashmir, lies a beautiful bequest of the glory of mother nature, Gulmarg!. </p>
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="jammu.jpg"> 
+                        <h3> Jammu </h3>
+                        <p> Jammu is justly famous for its temples. In fact it is known as the city of temples and the every fame of its tends to overshadow its palaces, forts, forests and powerful ziarats.</p>  
+                    </div>    
+                    <div class="cols-3">   
+                        <img src="srinagar.jpg"> 
+                        <h3> Srinagar </h3>
+                        <p> It lies in the Kashmir Valley on the banks of the Jhelum River, a tributary of the Indus, and Dal and Anchar lakes. The city is known for its natural environment, gardens, waterfronts and houseboats.</p>
+                    </div>
+                    <div class="cols-3">  
+                        <img src="vaishnoDevi.jpg"> 
+                        <h3> Vaishno Devi </h3>
+                        <p>  The Vaishno Devi Temple is an important Hindu temple dedicated to Vaishno Devi located in Katra at the Trikuta Mountains within the Indian Union territory of Jammu and Kashmir. The temple is one of the 108 Shakti Peethas dedicated to Durga, who is worshipped as Vaishno Devi. </p>
+                    </div>    
+                </div>
+            </div>
+            <!-- MAP SECTION -->
+            <div id = "showcase1-container">
+                <div class="showcase">
+                    <div class="cols-2">
+                        <iframe class="showcase1-pic" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406913.8611515723!2d73.01794483872837!3d33.499703712806955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1092499ffa89d%3A0x6567a6d4697e7f1!2sJammu%20and%20Kashmir!5e0!3m2!1sen!2sin!4v1618414909399!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="cols-2">
+                        <div class="feature-text">
+                        <h1 class="section-title">
+                            Facts of Jammu and <div style="padding-left:70px;">Kashmir </div>
+                        </h1>
+                        <p class="section-content">
+                            <ul class="section-content-list">
+                                <li>
+                                    According to the history of Jammu & Kashmir, Maharaja Hari Singh was the last ruling Maharaja of the princely state.
+                                </li>
+                                <li>
+                                    Srinagar was founded by Emperor Ashoka and not the Mughal emperor Jahangir.
+                                </li>
+                                <li>
+                                    Kashmir’s cultural heritage flourished with the contribution of Hinduism, Buddhism, and Islam.
+                                </li>
+                                <li>
+                                    The syncretic culture of Kashmir is best encapsulated by the word Kashmiriyat, which described the cultural values of the Kashmiri people.
+                                </li>
+                                <li>
+                                    Shikara stays are a unique experience highly recommended and usually included in good Kashmir packages.
+                                </li>
+                            </ul>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feature-section2">
+                <h1 class="feature-section2-title">
+                    More about <i>Jammu and Kashmir.. </i>  <br><br>
+                </h1>
+                <div class="slideshow">
+                    <div class="mySlides">
+                        <img src="jammukashmirr.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> Union territory : Jammu and Kashmir</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="srinagarr.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> Territory's Capital : Srinagar</div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="20districts.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> No. of districts of Territory : 20 </div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="srinaagar.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> Territory's largest district : Srinagar </div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="hindiurdukashmiri.jpg" width="900" height="450" style="width:100%;">
+                        <div class="caption"> Territory's official language : Hindi, Urdu & Kashmiri </div>
+                    </div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+                <br><br>
+                <a href="#" class="BookTicketBtn" style="text-align:center; margin:auto;"> BOOK YOUR TICKETS TODAY!! </a>
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}    
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 2500); // Change image every 2.5 seconds
+                    }
+                </script>
+            </div>
+            <!-- LAST SECTION -->
+            <br><br><br><br><br>
+            <!-- LAST SECTION -->
+            <div id="call-to-action">
+                <div class="showcase">
+                    <div class="cols-1">
+                        <h1 class="action-title">
+                            What are you waiting for??
+                        </h1>
+                        <p style="line-height:1.2em;">
+                            Book your tickets, pack your bags and
+                            Get.. Set.. GO!! 
+                            The beautiful spots of Jammu and Kashmir is waiting for you!!
+                        </p>
+                        <P>
+                        <a href="#" class="BookHotelBtn"> BOOK A HOTEL TODAY!! </a>
+                        </P>
+                        <div class="text"> <p style="font-weight:1000; font-style:italic;"> Evening View - Kashmir - Jammu and Kashmir </p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
