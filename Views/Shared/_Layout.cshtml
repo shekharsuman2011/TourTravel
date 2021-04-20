@@ -4,18 +4,20 @@
 
 <head runat="server">
     <title></title>
-    <link href="Script/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="Script/datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
-    <link href="Script/fontawesome/css/all.css" rel="stylesheet" />
-    <link href="Script/css/customstylesheet.css" rel="stylesheet" />
-    <script src="Script/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="Script/bootstrap/js/popper.min.js"></script>
-    <script src="Script/bootstrap/js/bootstrap.min.js"></script>
+    <link href="~/Script/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Script/datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="~/Script/fontawesome/css/all.css" rel="stylesheet" />
+    <link href="~/Script/css/customstylesheet.css" rel="stylesheet" />
+    <script src="~/Script/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Script/bootstrap/js/popper.min.js"></script>
+    <script src="~/Script/bootstrap/js/bootstrap.min.js"></script>
 
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap"
+    
+    <link rel="preconnect" href="~/https://fonts.gstatic.com">
+    <link href="~/https://fonts.googleapis.com/css2?family=Allura&display=swap"
           rel="stylesheet">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
         @@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
 
@@ -71,7 +73,7 @@
             box-shadow: 0px 2px 4px 0px #757575;
             cursor: pointer;
         }
-        
+
 
         .options3 {
             background-color: transparent;
@@ -291,7 +293,7 @@
             border-radius: 10px;
             border: 3px solid black;
             position: absolute;
-            left: 325px; /*325*/
+            left: 333px; /*325*/
             top: -23px;
             width: 150px;
             height: 45px;
@@ -378,23 +380,25 @@
                 text-decoration-line: underline;
                 cursor: pointer;
             }
+
         .my-class:link, .my-class:visited {
             color: black;
             text-decoration-line: none;
         }
+
         .my-class:hover {
             color: white;
         }
+
         .secndClass:link, .secndClass:visited {
             color: black;
             text-decoration-line: none;
         }
+
         .secndClass:hover {
             color: black;
             text-decoration-line: underline;
-
         }
-
     </style>
 </head>
 
@@ -403,20 +407,20 @@
 
         <div>
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">
-                    <img class="pageIcon" src="Image/Layout/28894347.jpg" height="60" width="170" />
+                <a class="navbar-brand" href="~/#">
+                    <img class="pageIcon" src="~/Image/Layout/28894347.jpg" height="60" width="170" />
                 </a>
                 <button type="submit" value="Submit" class="options1"><i class="fa fa-home">Home</i></button>
                 <div class="dropdown">
                     <button type="submit" value="Submit" class="dropbtn"><i class="fa fa-globe">Destination</i></button>
                     <div class="dropdown-content">
-                        <a href="#">Andhra Pradesh</a>
-                        <a href="#">Arunachal Pradesh</a>
-                        <a href="#">Assam</a>
-                        <a href="#">Bihar</a>
-                        <a href="#">Chhattisgarh</a>
-                        <a href="#">Arunachal Pradesh</a>
-                        <a href="#">Goa</a>
+                        <a href="~/#">Andhra Pradesh</a>
+                        <a href="~/#">Arunachal Pradesh</a>
+                        <a href="~/#">Assam</a>
+                        <a href="~/#">Bihar</a>
+                        <a href="~/#">Chhattisgarh</a>
+                        <a href="~/#">Arunachal Pradesh</a>
+                        <a href="~/#">Goa</a>
                         <a href="#">Gujarat</a>
                         <a href="#">Haryana</a>
                         <a href="#">Himachal Pradesh</a>
@@ -462,7 +466,7 @@
                         
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <img class="imageUser" src="Image/Layout/user.png" height="50" width="50" />
+                                <img class="imageUser" src="~/Image/Layout/user.png" height="50" width="50" />
                             </a>
                         </li>
                             
@@ -476,11 +480,11 @@
                        placeholder="&#61442; Where are you going?" />
             </div>
         </div>
-        <div class="s2"><img class="img2" src="Image/Layout/taj.png" width="1467" height="440" /></div>
-        <div class="s2"><img class="img2" src="Image/Layout/1.png" width="1467" height="440" /></div>
-        <div class="s2"><img class="img2" src="Image/Layout/2.png" width="1467" height="440" /></div>
-        <div class="s2"><img class="img2" src="Image/Layout/3.png" width="1467" height="440" /></div>
-        <div class="s2"><img class="img2" src="Image/Layout/4.png" width="1467" height="440" /></div>
+        <div class="s2"><img class="img2" src="~/Image/Layout/taj.png" width="1467" height="440" /></div>
+        <div class="s2"><img class="img2" src="~/Image/Layout/1.png" width="1467" height="440" /></div>
+        <div class="s2"><img class="img2" src="~/Image/Layout/2.png" width="1467" height="440" /></div>
+        <div class="s2"><img class="img2" src="~/Image/Layout/3.png" width="1467" height="440" /></div>
+        <div class="s2"><img class="img2" src="~/Image/Layout/4.png" width="1467" height="440" /></div>
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -593,25 +597,25 @@
                         <p>
                             <hr />
                             <asp:LinkButton class="footerlinks" ID="LinkButton5" runat="server">
-                                <img src="Image/Layout/circle-cropped%20(1).png" height="30" width="30" />
+                                <img src="~/Image/Layout/circle-cropped%20(1).png" height="30" width="30" />
                             </asp:LinkButton>
                             &nbsp;
                             <asp:LinkButton class="footerlinks" ID="LinkButton6" runat="server">
-                                <img src="Image/Layout/circle-cropped%20(2).png" height="30" width="30" />
+                                <img src="~/Image/Layout/circle-cropped%20(2).png" height="30" width="30" />
                             </asp:LinkButton>
                             &nbsp;
 
                             <asp:LinkButton class="footerlinks" ID="LinkButton7" runat="server">
-                                <img src="Image/Layout/768px-Instagram_icon.png" height="30" width="30" />
+                                <img src="~/Image/Layout/768px-Instagram_icon.png" height="30" width="30" />
                             </asp:LinkButton>
                             &nbsp;
 
                             <asp:LinkButton class="footerlinks" ID="LinkButton8" runat="server">
-                                <img src="Image/Layout/youtube.png" height="30" width="35" />
+                                <img src="~/Image/Layout/youtube.png" height="30" width="35" />
                             </asp:LinkButton>
                             <br /><br />
 
-                            <pre>Call Us On <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server"><img src="Image/Layout/circle-cropped%20(3).png" height="20" width="20" /></asp:LinkButton> <asp:LinkButton class="footerlinks" ID="LinkButton11" runat="server">+91-900-123-4567</asp:LinkButton></pre>
+                            <pre>Call Us On <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server"><img src="~/Image/Layout/circle-cropped%20(3).png" height="20" width="20" /></asp:LinkButton> <asp:LinkButton class="footerlinks" ID="LinkButton11" runat="server">+91-900-123-4567</asp:LinkButton></pre>
 
 
 
