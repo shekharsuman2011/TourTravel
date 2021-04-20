@@ -394,7 +394,7 @@
             text-decoration-line: underline;
 
         }
-
+      
     </style>
 </head>
 
@@ -454,7 +454,8 @@
                 <button type="submit" value="Submit" class="options3">
                     <i class="fas fa-fire-alt">@Html.ActionLink("Experiences", "Experiences", "Home", new { id = "OT", style = "color: black; text-decoration:none" },new { @class = "my-class" })</i>
                 </button>
-                <button type="submit" value="Submit" class="options4"><i class="fas fa-image">Gallery</i></button>
+                <button type="submit" class="options4"><i class="fas fa-image">@Html.ActionLink("Gallery", "Gallery", "Home", null, new {@class="my-class" })</i>
+                </button>
                 <button type="submit" value="Submit" class="options5"><i class="fa fa-phone-alt">Contact Us</i></button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -468,7 +469,8 @@
                             
                             <form class="d-flex">
                             </form>
-</div>
+                </div>
+            </nav>
         </div>
         <div class="s1">
             <div class="secondDiv">
