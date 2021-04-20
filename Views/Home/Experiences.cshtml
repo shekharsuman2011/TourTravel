@@ -23,6 +23,8 @@
         .navbar {
             padding-left: 20px;
             padding-right: 20px;
+            width: 100%;
+            position: relative;
         }
 
         .div1 {
@@ -54,7 +56,8 @@
 
         .container {
             position: relative;
-            width: 40%;
+            width: 100%;
+            left: -56px;
         }
 
         .img1 {
@@ -74,12 +77,11 @@
             text-align: center;
         }
 
-        .container:hover .img1 {
-            opacity: 0.3;
-        }
+        
 
-        .container:hover .middle {
-            opacity: 1;
+        .middle:hover,img1.hover {
+            opacity: 0.7;
+            cursor: pointer;
         }
 
         .text {
@@ -100,199 +102,203 @@
                 text-decoration-line: none;
                 cursor: pointer;
             }
+
+      
     </style>
-    <hr />
-    <h1><center>Unveil Experiences & Adventures with us</center></h1>
-    <br />
-    <br />
+    
+    
+        <h1><center>Unveil Experiences & Adventures with us</center></h1>
+        <br />
+        <br />
 
-    <h1><center>Historical</center></h1>
-    <div class="div1">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <figure class="fig1">
-                    <img class="img1" src="~/Image/Layout/Taj2.jpg" height="300" width="290" />
-                    <figcaption style="text-align: center" ;>
-                        <b>Taj Mahal, Agra, Uttar Pradesh</b>
-                        <p>The Taj Mahal of Agra in India is one of the 7 wonders of the world and one of the most famous buildings in India, also known for its beautiful Mughal gardens,great gates and symbol of India’s rich history.</p>
+        <h1><center>Historical</center></h1>
+        <div class="div1">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <figure class="fig1">
+                        <img class="img1" src="~/Image/Layout/Taj2.jpg" height="300" width="290" />
+                        <figcaption style="text-align: center" ;>
+                            <b>Taj Mahal, Agra, Uttar Pradesh</b>
+                            <p>The Taj Mahal of Agra in India is one of the 7 wonders of the world and one of the most famous buildings in India, also known for its beautiful Mughal gardens,great gates and symbol of India’s rich history.</p>
 
-                    </figcaption>
-                </figure>
-                <div class="middle">
-                    <div class="text">Take me here</div>
+                        </figcaption>
+                    </figure>
+                    <div class="middle">
+                        <div class="text">Take me here</div>
+                    </div>
                 </div>
-            </div>
+                
 
-
-            <div class="container">
-                <figure class="fig1">
-                    <img class="img1" src="~/Image/Layout/Qutub minar.jpg" height="300" width="290" />
-                    <figcaption style="text-align: center" ;>
-                        <b>Qutub Minar, New Delhi</b>
-                        <p>Qutub Minar is the second tallest minar in India after Fateh Burj and the Qutb Complex, which is a UNESCO World Heritage Site. The complex of Qutub Minar is surrounded by several historically significant monuments</p>
-                    </figcaption>
-                </figure>
-                <div class="middle">
-                    <div class="text">Take me here</div>
+                <div class="container">
+                    <figure class="fig1">
+                        <img class="img1" src="~/Image/Layout/Qutub minar.jpg" height="300" width="290" />
+                        <figcaption style="text-align: center" ;>
+                            <b>Qutub Minar, New Delhi</b>
+                            <p>Qutub Minar is the second tallest minar in India after Fateh Burj and the Qutb Complex, which is a UNESCO World Heritage Site. The complex of Qutub Minar is surrounded by several historically significant monuments</p>
+                        </figcaption>
+                    </figure>
+                    <div class="middle">
+                        <div class="text">Take me here</div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="container">
-                <figure class="fig1">
-                    <img class="img1" src="~/Image/Layout/jaisalmer.jpg" height="300" width="290" />
-                    <figcaption style="text-align: center" ;>
-                        <b>Jaisalmer Hill Fort, Rajasthan</b>
-                        <p>Jaisalmer Fort is situated in the city of Jaisalmer, in the Indian state of Rajasthan. It is believed to be one of the very few "living forts" in the world, as nearly one fourth of the old city's population still resides within the fort.</p>
+                <div class="container">
+                    <figure class="fig1">
+                        <img class="img1" src="~/Image/Layout/jaisalmer.jpg" height="300" width="290" />
+                        <figcaption style="text-align: center" ;>
+                            <b>Jaisalmer Hill Fort, Rajasthan</b>
+                            <p>Jaisalmer Fort is situated in the city of Jaisalmer, in the Indian state of Rajasthan. It is believed to be one of the very few "living forts" in the world, as nearly one fourth of the old city's population still resides within the fort.</p>
 
-                    </figcaption>
-                </figure>
-                <div class="middle">
-                    <div class="text">Take me here</div>
+                        </figcaption>
+                    </figure>
+                    <div class="middle">
+                        <div class="text">Take me here</div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="container">
-                <figure class="fig1">
-                    <img class="img1" src="~/Image/Layout/khajuraho.jpeg" height="300" width="290" />
-                    <figcaption style="text-align: center" ;>
-                        <b>Khajuraho Group of Monuments , Madhaya Pradesh</b>
-                        <p>The Khajuraho Group of Monuments are famous for their nagara-style architectural symbolism and their erotic sculptures. Most Khajuraho temples were built between 885 AD and 1050 AD. </p>
-                    </figcaption>
-                </figure>
-                <div class="middle">
-                    <div class="text">Take me here</div>
+                <div class="container">
+                    <figure class="fig1">
+                        <img class="img1" src="~/Image/Layout/khajuraho.jpeg" height="300" width="290" />
+                        <figcaption style="text-align: center" ;>
+                            <b>Khajuraho Group of Monuments , Madhaya Pradesh</b>
+                            <p>The Khajuraho Group of Monuments are famous for their nagara-style architectural symbolism and their erotic sculptures. Most Khajuraho temples were built between 885 AD and 1050 AD. </p>
+                        </figcaption>
+                    </figure>
+                    <div class="middle">
+                        <div class="text">Take me here</div>
+                    </div>
                 </div>
-            </div>
 
-        </nav>
+            </nav>
+        </div>
+
+        <br />
+        <br />
+
+
+        <h1><center>Adventure</center></h1>
+        <div class="div1">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <figure class="fig1">
+                        <img class="img1" src="~/Image/Layout/trek.jpg" height="300" width="290" />
+                        <figcaption style="text-align: center" ;>
+                            <b>Trekking</b>
+                            <p>India is land of many terrains. The foothills of the Himalayas offer world-class trekking trails to travelers and trekking exercises are coordinated with other fun exercises like water sports</p>
+                        </figcaption>
+                    </figure>
+                    <div class="middle">
+                        <div class="text">Take me here</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <figure class="fig1">
+                        <img class="img1" src="~/Image/Layout/skydiving.jpg" height="300" width="290" />
+
+                        <figcaption style="text-align: center" ;>
+                            <b>Sky Diving</b>
+                            <p>Indulge into the thrill of soaring in the sky at this beautiful lakeside city. Deesa – Gujarat is among the best destinations for skydiving in India that offers all three kinds of jumps. </p>
+                        </figcaption>
+                    </figure>
+                    <div class="middle">
+                        <div class="text">Take me here</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <figure class="fig1">
+                        <img class="img1" src="~/Image/Layout/scuba.jpg" height="300" width="290" />
+                        <figcaption style="text-align: center" ;>
+                            <b>Scuba Diving</b>
+                            <p>Situated right in the middle of the Indian Ocean and Bay of Bengal, this archipelago has a number of stunningly beautiful beaches and scuba diving spots, Havelock Islands being one of the most popular.</p>
+
+                        </figcaption>
+                    </figure>
+                    <div class="middle">
+                        <div class="text">Take me here</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <figure class="fig1">
+                        <img class="img1" src="~/Image/Layout/safari.jpg" height="300" width="290" />
+                        <figcaption style="text-align: center" ;>
+                            <b>Jungle Safari</b>
+                            <p>The Ranthambore National Park in Rajasthan is home to a dwindling population of tigers. You get to see these majestic beasts in their natural habitat, making it all the more regal.</p>
+                        </figcaption>
+                    </figure>
+                    <div class="middle">
+                        <div class="text">Take me here</div>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+
+        <br />
+        <br />
+        <h1><center>Beaches</center></h1>
+        <div class="div1">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <figure class="fig1">
+                        <img class="img1" src="~/Image/Layout/Varkala beach.jpg" height="300" width="290" />
+                        <figcaption style="text-align: center" ;>
+                            <b>Varkala Beach, Kerala</b>
+                            <p>The setting of this beach is striking enough to take your breath away, with a seemingly endless paved stretch of cliff bordered by shacks on one side and views that extend over the Arabian Sea on the other.</p>
+                        </figcaption>
+                    </figure>
+                    <div class="middle">
+                        <div class="text">Take me here</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <figure class="fig1">
+                        <img class="img1" src="~/Image/Layout/Palolem_beach.jpg" height="300" width="290" />
+
+                        <figcaption style="text-align: center" ;>
+                            <b>Palolem Beach, Goa</b>
+                            <p>The beach continues to grow in popularity every year and is the most lively beach in South Goa. However, it still retains its relaxed vibe, as permanent structures aren't allowed to be built on it.</p>
+                        </figcaption>
+                    </figure>
+                    <div class="middle">
+                        <div class="text">Take me here</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <figure class="fig1">
+                        <img class="img1" src="~/Image/Layout/auroville-beach1.jpg" height="300" width="290" />
+                        <figcaption style="text-align: center" ;>
+                            <b>Auroville Beach, Tamil Nadu</b>
+                            <p>The historic French Quarter in town is a highlight, while nearby Auroville and Paradise beaches are great for swimming. Also check out the pristine beaches at Mahe, Yanam and Karaikal.</p>
+                        </figcaption>
+                    </figure>
+                    <div class="middle">
+                        <div class="text">Take me here</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <figure class="fig1">
+                        <img class="img1" src="~/Image/Layout/TARKARLI.jpg" height="300" width="290" />
+                        <figcaption style="text-align: center" ;>
+                            <b>Tarkarli Beach, Maharashtra</b>
+                            <p>The vicinity of Tarkarli beach in southern Maharashtra has one of the best coral reefs on the Indian mainland. The simple homestay accommodations right on the beach are a delight.</p>
+                        </figcaption>
+                    </figure>
+                    <div class="middle">
+                        <div class="text">Take me here</div>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+        <br />
+        <a class="link1"><p><center>Explore More >></center></p></a>
     </div>
-
-    <br />
-    <br />
-
-
-    <h1><center>Adventure</center></h1>
-    <div class="div1">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <figure class="fig1">
-                    <img class="img1" src="~/Image/Layout/trek.jpg" height="300" width="290" />
-                    <figcaption style="text-align: center" ;>
-                        <b>Trekking</b>
-                        <p>India is land of many terrains. The foothills of the Himalayas offer world-class trekking trails to travelers and trekking exercises are coordinated with other fun exercises like water sports</p>
-                    </figcaption>
-                </figure>
-                <div class="middle">
-                    <div class="text">Take me here</div>
-                </div>
-            </div>
-
-            <div class="container">
-                <figure class="fig1">
-                    <img class="img1" src="~/Image/Layout/skydiving.jpg" height="300" width="290" />
-
-                    <figcaption style="text-align: center" ;>
-                        <b>Sky Diving</b>
-                        <p>Indulge into the thrill of soaring in the sky at this beautiful lakeside city. Deesa – Gujarat is among the best destinations for skydiving in India that offers all three kinds of jumps. </p>
-                    </figcaption>
-                </figure>
-                <div class="middle">
-                    <div class="text">Take me here</div>
-                </div>
-            </div>
-
-            <div class="container">
-                <figure class="fig1">
-                    <img class="img1" src="~/Image/Layout/scuba.jpg" height="300" width="290" />
-                    <figcaption style="text-align: center" ;>
-                        <b>Scuba Diving</b>
-                        <p>Situated right in the middle of the Indian Ocean and Bay of Bengal, this archipelago has a number of stunningly beautiful beaches and scuba diving spots, Havelock Islands being one of the most popular.</p>
-
-                    </figcaption>
-                </figure>
-                <div class="middle">
-                    <div class="text">Take me here</div>
-                </div>
-            </div>
-
-            <div class="container">
-                <figure class="fig1">
-                    <img class="img1" src="~/Image/Layout/safari.jpg" height="300" width="290" />
-                    <figcaption style="text-align: center" ;>
-                        <b>Jungle Safari</b>
-                        <p>The Ranthambore National Park in Rajasthan is home to a dwindling population of tigers. You get to see these majestic beasts in their natural habitat, making it all the more regal.</p>
-                    </figcaption>
-                </figure>
-                <div class="middle">
-                    <div class="text">Take me here</div>
-                </div>
-            </div>
-
-        </nav>
-    </div>
-
-    <br />
-    <br />
-    <h1><center>Beaches</center></h1>
-    <div class="div1">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <figure class="fig1">
-                    <img class="img1" src="~/Image/Layout/Varkala beach.jpg" height="300" width="290" />
-                    <figcaption style="text-align: center" ;>
-                        <b>Varkala Beach, Kerala</b>
-                        <p>The setting of this beach is striking enough to take your breath away, with a seemingly endless paved stretch of cliff bordered by shacks on one side and views that extend over the Arabian Sea on the other.</p>
-                    </figcaption>
-                </figure>
-                <div class="middle">
-                    <div class="text">Take me here</div>
-                </div>
-            </div>
-
-            <div class="container">
-                <figure class="fig1">
-                    <img class="img1" src="~/Image/Layout/Palolem_beach.jpg" height="300" width="290" />
-
-                    <figcaption style="text-align: center" ;>
-                        <b>Palolem Beach, Goa</b>
-                        <p>The beach continues to grow in popularity every year and is the most lively beach in South Goa. However, it still retains its relaxed vibe, as permanent structures aren't allowed to be built on it.</p>
-                    </figcaption>
-                </figure>
-                <div class="middle">
-                    <div class="text">Take me here</div>
-                </div>
-            </div>
-
-            <div class="container">
-                <figure class="fig1">
-                    <img class="img1" src="~/Image/Layout/auroville-beach1.jpg"height="300" width="290" />
-                    <figcaption style="text-align: center" ;>
-                        <b>Auroville Beach, Tamil Nadu</b>
-                        <p>The historic French Quarter in town is a highlight, while nearby Auroville and Paradise beaches are great for swimming. Also check out the pristine beaches at Mahe, Yanam and Karaikal.</p>
-                    </figcaption>
-                </figure>
-                <div class="middle">
-                    <div class="text">Take me here</div>
-                </div>
-            </div>
-
-            <div class="container">
-                <figure class="fig1">
-                    <img class="img1" src="~/Image/Layout/TARKARLI.jpg"  height="300" width="290" />
-                    <figcaption style="text-align: center" ;>
-                        <b>Tarkarli Beach, Maharashtra</b>
-                        <p>The vicinity of Tarkarli beach in southern Maharashtra has one of the best coral reefs on the Indian mainland. The simple homestay accommodations right on the beach are a delight.</p>
-                    </figcaption>
-                </figure>
-                <div class="middle">
-                    <div class="text">Take me here</div>
-                </div>
-            </div>
-
-        </nav>
-    </div>
-    <br />
-    <a class="link1"><p><center>Explore More >></center></p></a>
 
 
 
