@@ -410,66 +410,61 @@
                 <a class="navbar-brand" href="~/#">
                     <img class="pageIcon" src="~/Image/Layout/28894347.jpg" height="60" width="170" />
                 </a>
-                <button type="submit" value="Submit" class="options1"><i class="fa fa-home">Home</i></button>
+                <button type="submit" value="Submit" class="options1">
+                <i class="fa fa-home">
+                    @Html.ActionLink("Home", "index", "Home", new { id = "OT", style = "color: black; text-decoration:none" }, new { @class = "my-class" })
+                </i>
+                </button>
                 <div class="dropdown">
                     <button type="submit" value="Submit" class="dropbtn"><i class="fa fa-globe">Destination</i></button>
                     <div class="dropdown-content">
-<<<<<<< HEAD
-                        <a href="~/#">Andhra Pradesh</a>
-                        <a href="~/#">Arunachal Pradesh</a>
-                        <a href="~/#">Assam</a>
-                        <a href="~/#">Bihar</a>
-                        <a href="~/#">Chhattisgarh</a>
-                        <a href="~/#">Arunachal Pradesh</a>
-                        <a href="~/#">Goa</a>
-=======
-                        <a href="AndhraPradesh.cshtml">Andhra Pradesh</a>
-                        <a href="#">Arunachal Pradesh</a>
-                        <a href="#">Assam</a>
-                        <a href="#">Bihar</a>
-                        <a href="#">Chhattisgarh</a>
-                        <a href="#">Arunachal Pradesh</a>
-                        <a href="#">Goa</a>
->>>>>>> master
-                        <a href="#">Gujarat</a>
-                        <a href="#">Haryana</a>
-                        <a href="#">Himachal Pradesh</a>
-                        <a href="#">Jharkhand</a>
-                        <a href="#">Karnataka</a>
-                        <a href="#">Kerala</a>
-                        <a href="#">Madhya Pradesh</a>
-                        <a href="#">Maharashtra</a>
-                        <a href="#">Manipur</a>
-                        <a href="#">Meghalaya</a>
-                        <a href="#">Mizoram</a>
-                        <a href="#">Nagaland</a>
-                        <a href="#">Odisha</a>
-                        <a href="#">Punjab</a>
-                        <a href="#">Rajasthan</a>
-                        <a href="#">Sikkim</a>
-                        <a href="#">Tamil Nadu</a>
-                        <a href="#">Telangana</a>
-                        <a href="#">Tripura</a>
-                        <a href="#">Uttar Pradesh</a>
-                        <a href="#">Uttarakhand</a>
-                        <a href="#">West Bengal</a>
-                        <a href="#">Andaman and Nicobar Islands</a>
-                        <a href="#">Chandigarh</a>
-                        <a href="#">Dadra and Nagar Haveli and Daman and Diu</a>
-                        <a href="#">Delhi</a>
-                        <a href="#">Jammu and Kashmir</a>
-                        <a href="#">Ladakh</a>
-                        <a href="#">Lakshadweep</a>
-                        <a href="#">Puducherry</a>
-
+                        @Html.ActionLink("Andhra Pradesh", "AndhraPradesh", "Home")
+                        @Html.ActionLink("Arunachal Pradesh", "ArunachalPradesh", "Home")
+                        @Html.ActionLink("Assam", "Assam", "Home")
+                        @Html.ActionLink("Bihar", "Bihar", "Home")
+                        @Html.ActionLink("Chhattisgarh", "Chhattisgarh", "Home")
+                        @Html.ActionLink("Goa", "Goa", "Home")
+                        @Html.ActionLink("Gujarat", "Gujarat", "Home")
+                        @Html.ActionLink("Haryana", "Haryana", "Home")
+                        @Html.ActionLink("Himachal Pradesh", "HimachalPradesh", "Home")
+                        @Html.ActionLink("Jharkhand", "Jharkhand", "Home")
+                        @Html.ActionLink("Karnataka", "Karnataka", "Home")
+                        @Html.ActionLink("Kerala", "Kerala", "Home")
+                        @Html.ActionLink("Madhya Pradesh", "MadhyaPradesh", "Home")
+                        @Html.ActionLink("Maharashtra", "Maharashtra", "Home")
+                        @Html.ActionLink("Manipur", "Manipur", "Home")
+                        @Html.ActionLink("Meghalaya", "Meghalaya", "Home")
+                        @Html.ActionLink("Mizoram", "Mizoram", "Home")
+                        @Html.ActionLink("Nagaland", "Nagaland", "Home")
+                        @Html.ActionLink("Odisha", "Odisha", "Home")
+                        @Html.ActionLink("Punjab", "Punjab", "Home")
+                        @Html.ActionLink("Rajasthan", "Rajasthan", "Home")
+                        @Html.ActionLink("Sikkim", "Sikkim", "Home")
+                        @Html.ActionLink("Tamil Nadu", "TamilNadu", "Home")
+                        @Html.ActionLink("Telangana", "Telangana", "Home")
+                        @Html.ActionLink("Tripura", "Tripura", "Home")
+                        @Html.ActionLink("Uttar Pradesh", "UttarPradesh", "Home")
+                        @Html.ActionLink("Uttarakhand", "Uttarakhand", "Home")
+                        @Html.ActionLink("West Bengal", "WestBengal", "Home")
+                        @Html.ActionLink("Andaman and Nicobar Islands", "AndamanAndNicobarIslands", "Home")
                     </div>
                 </div>
 
                 <button type="submit" value="Submit" class="options3">
-                    <i class="fas fa-fire-alt">@Html.ActionLink("Experiences", "Experiences", "Home", new { id = "OT", style = "color: black; text-decoration:none" },new { @class = "my-class" })</i>
+                    <i class="fas fa-fire-alt">
+                    @Html.ActionLink("Experiences", "Experiences", "Home", new { id = "OT", style = "color: black; text-decoration:none" },new { @class = "my-class" })
+                    </i>
                 </button>
-                <button type="submit" value="Submit" class="options4"><i class="fas fa-image">Gallery</i></button>
-                <button type="submit" value="Submit" class="options5"><i class="fa fa-phone-alt">Contact Us</i></button>
+                <button type="submit" value="Submit" class="options4">
+                <i class="fas fa-image">
+                    @Html.ActionLink("Gallery", "Gallery", "Home", new { id = "OT", style = "color: black; text-decoration:none" }, new { @class = "my-class" })
+                </i>
+                </button>
+                <button type="submit" value="Submit" class="options5">
+                    <i class="fa fa-phone-alt">
+                        @Html.ActionLink("Contact Us", "Contact", "Home", new { id = "OT", style = "color: black; text-decoration:none" }, new { @class = "my-class" })
+                    </i>
+                </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
