@@ -2262,6 +2262,23 @@
     <Content Include="Script\StatesCss\andhra.css" />
     <Content Include="Script\StatesCss\arunachal.css" />
     <Content Include="Script\StatesCss\assam.css" />
+    <Content Include="Script\StatesCss\bihar.css" />
+    <Content Include="Script\StatesCss\chhattisgarh.css" />
+    <Content Include="Script\StatesCss\goa.css" />
+    <Content Include="Script\StatesCss\gujarat.css" />
+    <Content Include="Script\StatesCss\haryana.css" />
+    <Content Include="Script\StatesCss\himachal.css" />
+    <Content Include="Script\StatesCss\jharkhand.css" />
+    <Content Include="Script\StatesCss\karnataka.css" />
+    <Content Include="Script\StatesCss\kerala.css" />
+    <Content Include="Script\StatesCss\madhya.css" />
+    <Content Include="Script\StatesCss\maharashtra.css" />
+    <Content Include="Script\StatesCss\manipur.css" />
+    <Content Include="Script\StatesCss\meghalaya.css" />
+    <Content Include="Script\StatesCss\mizoram.css" />
+    <Content Include="Script\StatesCss\nagaland.css" />
+    <Content Include="Script\StatesCss\odisha.css" />
+    <Content Include="Script\StatesCss\punjab.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -2358,6 +2375,24 @@
     <Content Include="Views\Home\Experiences.cshtml" />
     <Content Include="Views\Home\AndhraPradesh.cshtml" />
     <Content Include="Views\Home\ArunachalPradesh.cshtml" />
+    <Content Include="Views\Home\Assam.cshtml" />
+    <Content Include="Views\Home\Bihar.cshtml" />
+    <Content Include="Views\Home\Chhattisgarh.cshtml" />
+    <Content Include="Views\Home\Goa.cshtml" />
+    <Content Include="Views\Home\Gujarat.cshtml" />
+    <Content Include="Views\Home\Haryana.cshtml" />
+    <Content Include="Views\Home\HimachalPradesh.cshtml" />
+    <Content Include="Views\Home\Jharkhand.cshtml" />
+    <Content Include="Views\Home\Karnataka.cshtml" />
+    <Content Include="Views\Home\Kerela.cshtml" />
+    <Content Include="Views\Home\MadhyaPradesh.cshtml" />
+    <Content Include="Views\Home\Maharashtra.cshtml" />
+    <Content Include="Views\Home\Manipur.cshtml" />
+    <Content Include="Views\Home\Meghalaya.cshtml" />
+    <Content Include="Views\Home\Mizoram.cshtml" />
+    <Content Include="Views\Home\Nagaland.cshtml" />
+    <Content Include="Views\Home\Odisha.cshtml" />
+    <Content Include="Views\Home\Punjab.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
