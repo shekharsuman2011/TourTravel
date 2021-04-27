@@ -1,0 +1,155 @@
+﻿
+@{
+    ViewBag.Title = "Chandigarh";
+}
+<link href="~/Script/StatesCss/chandigarh.css" rel="stylesheet" />
+<div class="main-container">
+    <!-- BACKGROUND IMAGE -->
+    <div id="top-section-main">
+
+        <div id="top-section-content">
+            <h1> Pinjore Garden </h1>
+            <h2> Chandigarh </h2>
+        </div>
+    </div>
+    <!-- PLACES TO VISIT SECTION -->
+    <div id="feature-section">
+        <h1 class="feature-section-title"> The top places to visit in <i>Chandigarh</i></h1>
+        <div class="feature-content">
+            <div class="cols-3">
+                <div class="cols-3-big">
+                    <img src="~/Image/StateImage/Chandigarh/roseGarden.png">
+                    <h3> Rose Garden </h3>
+                    <p> Named after India's former president, Zakir Hussain and created in 1967 under the guidance of Dr Dr M.S. Randhawa, Chandigarh's first chief commissioner, the garden has the distinction of being Asia's largest. The garden has not only roses, but also trees of medicinal value. </p>
+                </div>
+            </div>
+            <div class="cols-3">
+                <img src="~/Image/StateImage/Chandigarh/sukhnaLake.png">
+                <h3> Sukhna Lake </h3>
+                <p> The lake, which was the venue for the Asian Rowing Championships, has the longest channel for rowing and yachting events in Asia. Sukhna is a sanctuary for many exotic migratory birds like the Siberian duck, storks and cranes, during the winter months.</p>
+            </div>
+            <div class="cols-3">
+                <img src="~/Image/StateImage/Chandigarh/thunderZone.jpg">
+                <h3> Thunder Zone </h3>
+                <p> Splash through water, as you come zipping down the waterslides and land face first in crystal clear pool of water and emerge spluttering out, grinning ear to ear at Thunderzone in Chandigarh, an amusement cum waterpark.</p>
+            </div>
+            <div class="cols-3">
+                <img src="~/Image/StateImage/Chandigarh/leisureValley.jpg">
+                <h3> Leisure Valley </h3>
+                <p> Leisure Valley Chandigarh, is a continuum of several theme gardens that attract people from all walks of life to come and soak in the good vibes and breathe in the fresh air.</p>
+            </div>
+        </div>
+    </div>
+    <!-- MAP SECTION -->
+    <div id="showcase1-container">
+        <div class="showcase">
+            <div class="cols-2">
+                <iframe class="showcase1-pic" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109741.02912911311!2d76.69348873658222!3d30.73506264436677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh!5e0!3m2!1sen!2sin!4v1618411670802!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="cols-2">
+                <div class="feature-text">
+                    <h1 class="section-title">
+                        Facts of Chandigarh
+                    </h1>
+                    <p class="section-content">
+                        <ul class="section-content-list">
+                            <li>
+                                Chandigarh is the capital of Punjab and Haryana.
+                            </li>
+                            <li>
+                                The major design of the city was mapped out by the French architect Le Corbusier.
+                            </li>
+                            <li>
+                                Chandigarh was the first planned city in India and it was the dream city of the first Prime Minister Jawaharlal Nehru.
+                            </li>
+                            <li>
+                                The cities of Chandigarh, Panchkula (Haryana) and Mohali (Punjab) are together known as 'Tricity'.
+                            </li>
+                            <li>
+                                Chandigarh is said to have a number of roundabouts which help in easy flow of traffic. These roundabouts also provide a beauty to the city.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="feature-section2">
+        <h1 class="feature-section2-title">
+            More about <i>Chandigarh.. </i>  <br><br>
+        </h1>
+        <div class="slideshow">
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Chandigarh/chandigarhh.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> Union territory : Chandigarh</div>
+            </div>
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Chandigarh/chaandigarh.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> Territory's Capital : Chandigarh</div>
+            </div>
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Chandigarh/punjabharyana.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> Chandigarh is considered as capital of two neighbouring states i.e. Punjab & Haryana, that's why Chandigarh is considered as Union Territory </div>
+            </div>
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Chandigarh/chandiigarh.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> Territory's largest district : Chandigarh </div>
+            </div>
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Chandigarh/englishpunjabiharyanvi.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> Territory's official language : English, Punjabi & Haryanvi</div>
+            </div>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+        <br><br>
+        <a href="#" class="BookTicketBtn" style="text-align:center; margin:auto;"> BOOK YOUR TICKETS TODAY!! </a>
+        <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 3000); // Change image every 3 seconds
+                    }
+        </script>
+    </div>
+    <!-- LAST SECTION -->
+    <br><br><br><br><br>
+    <!-- LAST SECTION -->
+    <div id="call-to-action">
+        <div class="showcase">
+            <div class="cols-1">
+                <h1 class="action-title">
+                    What are you waiting for??
+                </h1>
+                <p style="line-height:1.2em; margin-top: -140px;">
+                    Book your tickets, pack your bags and
+                    Get.. Set.. GO!!
+                    The beautiful gardens of Chandigarh is waiting for you!!
+                </p>
+                <P>
+                    <a href="#" class="BookHotelBtn"> BOOK A HOTEL TODAY!! </a>
+                </P>
+                <div class="text"> <p style="font-weight:1000; font-style:italic"> Evening View - Mohali - Chandigarh </p></div>
+            </div>
+        </div>
+    </div>
+</div>

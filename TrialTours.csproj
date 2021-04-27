@@ -609,6 +609,7 @@
     <Content Include="Script\bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="Script\bootstrap\js\bootstrap.min.js" />
     <Content Include="Script\bootstrap\js\popper.min.js" />
+    <Content Include="Script\contact.css" />
     <Content Include="Script\datatables\css\jquery.dataTables.min.css" />
     <Content Include="Script\datatables\js\jquery.dataTables.min.js" />
     <Content Include="Script\fontawesome\attribution.js" />
@@ -2259,18 +2260,26 @@
     <Content Include="Script\fontawesome\webfonts\fa-brands-400.svg" />
     <Content Include="Script\fontawesome\webfonts\fa-regular-400.svg" />
     <Content Include="Script\fontawesome\webfonts\fa-solid-900.svg" />
+    <Content Include="Script\StatesCss\andaman.css" />
     <Content Include="Script\StatesCss\andhra.css" />
     <Content Include="Script\StatesCss\arunachal.css" />
     <Content Include="Script\StatesCss\assam.css" />
+    <Content Include="Script\StatesCss\bengal.css" />
     <Content Include="Script\StatesCss\bihar.css" />
+    <Content Include="Script\StatesCss\chandigarh.css" />
     <Content Include="Script\StatesCss\chhattisgarh.css" />
+    <Content Include="Script\StatesCss\dadra.css" />
+    <Content Include="Script\StatesCss\delhi.css" />
     <Content Include="Script\StatesCss\goa.css" />
     <Content Include="Script\StatesCss\gujarat.css" />
     <Content Include="Script\StatesCss\haryana.css" />
     <Content Include="Script\StatesCss\himachal.css" />
+    <Content Include="Script\StatesCss\jammu.css" />
     <Content Include="Script\StatesCss\jharkhand.css" />
     <Content Include="Script\StatesCss\karnataka.css" />
     <Content Include="Script\StatesCss\kerala.css" />
+    <Content Include="Script\StatesCss\ladakh.css" />
+    <Content Include="Script\StatesCss\lakshwadeep.css" />
     <Content Include="Script\StatesCss\madhya.css" />
     <Content Include="Script\StatesCss\maharashtra.css" />
     <Content Include="Script\StatesCss\manipur.css" />
@@ -2278,7 +2287,15 @@
     <Content Include="Script\StatesCss\mizoram.css" />
     <Content Include="Script\StatesCss\nagaland.css" />
     <Content Include="Script\StatesCss\odisha.css" />
+    <Content Include="Script\StatesCss\puducherry.css" />
     <Content Include="Script\StatesCss\punjab.css" />
+    <Content Include="Script\StatesCss\rajasthan.css" />
+    <Content Include="Script\StatesCss\sikkim.css" />
+    <Content Include="Script\StatesCss\tamil.css" />
+    <Content Include="Script\StatesCss\telangana.css" />
+    <Content Include="Script\StatesCss\tripura.css" />
+    <Content Include="Script\StatesCss\uttar.css" />
+    <Content Include="Script\StatesCss\uttarakhand.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -2393,6 +2410,22 @@
     <Content Include="Views\Home\Nagaland.cshtml" />
     <Content Include="Views\Home\Odisha.cshtml" />
     <Content Include="Views\Home\Punjab.cshtml" />
+    <Content Include="Views\Home\Rajasthan.cshtml" />
+    <Content Include="Views\Home\Sikkim.cshtml" />
+    <Content Include="Views\Home\TamilNadu.cshtml" />
+    <Content Include="Views\Home\Telangana.cshtml" />
+    <Content Include="Views\Home\Tripura.cshtml" />
+    <Content Include="Views\Home\UttarPradesh.cshtml" />
+    <Content Include="Views\Home\Uttarakhand.cshtml" />
+    <Content Include="Views\Home\WestBengal.cshtml" />
+    <Content Include="Views\Home\AndamanAndNicobarIslands.cshtml" />
+    <Content Include="Views\Home\Chandigarh.cshtml" />
+    <Content Include="Views\Home\DadraAndNagarHaveliAndDamanAndDiu.cshtml" />
+    <Content Include="Views\Home\Delhi.cshtml" />
+    <Content Include="Views\Home\JammuAndKashmir.cshtml" />
+    <Content Include="Views\Home\Ladakh.cshtml" />
+    <Content Include="Views\Home\Lakshwadeep.cshtml" />
+    <Content Include="Views\Home\Puducherry.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

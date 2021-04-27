@@ -1,0 +1,154 @@
+﻿
+@{
+    ViewBag.Title = "Rajasthan";
+}
+<link href="~/Script/StatesCss/rajasthan.css" rel="stylesheet" />
+<div class="main-container">
+    <!-- BACKGROUND IMAGE -->
+    <div id="top-section-main">
+
+        <div id="top-section-content">
+            <h1> Jaipur </h1>
+            <h2> Rajasthan </h2>
+        </div>
+    </div>
+    <!-- PLACES TO VISIT SECTION -->
+    <div id="feature-section">
+        <h1 class="feature-section-title"> The top places to visit in <i>Rajasthan</i></h1>
+        <div class="feature-content">
+            <div class="cols-3">
+                <img src="~/Image/StateImage/Rajasthan/udaipur.jpg">
+                <h3> Udaipur </h3>
+                <p> Dubbed "the most romantic spot on the continent of India" by British administrator James Tod, Udaipur is a tourist destination and is known for its history, culture, scenic locations and the Rajput-era palaces. </p>
+            </div>
+            <div class="cols-3">
+                <img src="~/Image/StateImage/Rajasthan/ajmer.jpg">
+                <h3> Ajmer </h3>
+                <p> It is famous for Pushkar Lake and the 14th century Brahma Temple at Pushkar, dedicated to Brahmā, according to the Padma Purāņa, Pushkar is important pilgrimage site for Lord Brahmā. </p>
+            </div>
+            <div class="cols-3">
+                <img src="~/Image/StateImage/Rajasthan/jaisalmer.jpg">
+                <h3> Jaisalmer </h3>
+                <p> Jaisalmer with its royal forts and palaces has the distinction of being the Golden city of India. One of Rajasthan's biggest tourist destinations. </p>
+            </div>
+            <div class="cols-3">
+                <img src="~/Image/StateImage/Rajasthan/chittorgarh.jpg">
+                <h3> Chittorgarh </h3>
+                <p> Chittorgarh is home to the Chittor Fort, the largest fort in India and Asia. It was sacked thrice In 1303 by Alauddin Khalji, again in 1535 by Bahadur Shah of Gujarat, and lastly by the Mughal king Akbar in 1568.</p>
+            </div>
+        </div>
+    </div>
+    <!-- MAP SECTION -->
+    <div id="showcase1-container">
+        <div class="showcase">
+            <div class="cols-2">
+                <iframe class="showcase1-pic" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7308189.827514037!2d69.37661161945594!3d26.569865139035635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396a3efaf7e30e37%3A0xb52b9b4506c088e5!2sRajasthan!5e0!3m2!1sen!2sin!4v1618389578426!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="cols-2">
+                <div class="feature-text">
+                    <h1 class="section-title">
+                        Facts of Rajasthan
+                    </h1>
+                    <p class="section-content">
+                        <ul class="section-content-list">
+                            <li>
+                                Rajasthan is the largest state of India.
+                            </li>
+                            <li>
+                                Bhangarh is called the Haunted Fort of Rajasthan, India.
+                            </li>
+                            <li>
+                                Kumbhalgarh Fort is the second largest fort in India.
+                            </li>
+                            <li>
+                                Rajasthan is the State of UNESCO World Heritage Sites.
+                            </li>
+                            <li>
+                                Thar Desert is the 17th largest desert of the world & 60% of the desert’s region is in the state of Rajasthan.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="feature-section2">
+        <h1 class="feature-section2-title">
+            More about <i>Rajasthan.. </i>  <br><br>
+        </h1>
+        <div class="slideshow">
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Rajasthan/rajasthan.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> State : Rajasthan</div>
+            </div>
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Rajasthan/jaipurr.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> State's Capital : Jaipur</div>
+            </div>
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Rajasthan/33districts.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> No. of districts of State : 33</div>
+            </div>
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Rajasthan/jaaipur.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> State's largest district : Jaipur </div>
+            </div>
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Rajasthan/hindirajasthani.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> State's official language : Hindi & Rajasthani</div>
+            </div>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+        <br><br>
+        <a href="#" class="BookTicketBtn" style="text-align:center; margin:auto;"> BOOK YOUR TICKETS TODAY!! </a>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 2500); // Change image every 2.5 seconds
+            }
+        </script>
+    </div>
+    <!-- LAST SECTION -->
+    <br><br><br><br><br>
+    <!-- LAST SECTION -->
+    <div id="call-to-action">
+        <div class="showcase">
+            <div class="cols-1">
+                <h1 class="action-title" style="color:white;">
+                    What are you waiting for??
+                </h1>
+                <p style="line-height:1.2em; margin-top:-100px; color:white;">
+                    Book your tickets, pack your bags and
+                    Get.. Set.. GO!!
+                    Fond of traditional cultures and clothings, then Rajasthan is definitely the place for you, and it is waiting for you!!
+                </p>
+                <P>
+                    <a href="#" class="BookHotelBtn"> BOOK A HOTEL TODAY!! </a>
+                </P>
+                <div class="text"> <p style="font-weight:1000; font-style:italic; color:white; margin-top:-70px;"> Pushkar - Rajasthan </p></div>
+            </div>
+        </div>
+    </div>
+</div>
+

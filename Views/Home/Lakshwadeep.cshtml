@@ -1,0 +1,154 @@
+﻿
+@{
+    ViewBag.Title = "Lakshwadeep";
+}
+<link href="~/Script/StatesCss/lakshwadeep.css" rel="stylesheet" />
+<div class="main-container">
+    <!-- BACKGROUND IMAGE -->
+    <div id="top-section-main">
+
+        <div id="top-section-content">
+            <h1> Agatti Islands </h1>
+            <h2> Lakshwadeep </h2>
+        </div>
+    </div>
+    <!-- PLACES TO VISIT SECTION -->
+    <div id="feature-section">
+        <h1 class="feature-section-title"> The top places to visit in <i>Lakshwadeep</i></h1>
+        <div class="feature-content">
+            <div class="cols-3">
+                <img src="~/Image/StateImage/Lakshwadeep/bangaramIsland.jpg">
+                <h3> Bangaram Island </h3>
+                <p> Bangaram Island is known for its pristine beaches, the vibrant coral reefs, many different fishes and few of the adventure sports. </p>
+            </div>
+            <div class="cols-3">
+                <img src="~/Image/StateImage/Lakshwadeep/kadmatIsland.jpg">
+                <h3> Kadmat Island </h3>
+                <p> Kadmat Island, also known as Cardamom Island, is a coral island belonging to the Amindivi subgroup of islands of the Lakshadweep archipelago in India.</p>
+            </div>
+            <div class="cols-3">
+                <img src="~/Image/StateImage/Lakshwadeep/kalpeniIsland.jpg">
+                <h3> Kalpeni Island </h3>
+                <p> Kalpeni is most famous for Tip Beach, a white sandy beach with a shallow emerald colored lagoon and clean pristine water ideal for diving, snorkeling, even a casual afternoon dip.</p>
+            </div>
+            <div class="cols-3">
+                <img src="~/Image/StateImage/Lakshwadeep/minicoyIsland.jpg">
+                <h3> Minicoy Island </h3>
+                <p>  It is the second largest and southern most island in Lakshadweep, crescent shaped and has one of the largest lagoons. </p>
+            </div>
+        </div>
+    </div>
+    <!-- MAP SECTION -->
+    <div id="showcase1-container">
+        <div class="showcase">
+            <div class="cols-2">
+                <iframe class="showcase1-pic" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4019476.361155808!2d70.54012096308199!3d10.320273093314078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b9fcd65cae4973d%3A0x17bd7416842ce9aa!2sLakshadweep!5e0!3m2!1sen!2sin!4v1618420615582!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="cols-2">
+                <div class="feature-text">
+                    <h1 class="section-title">
+                        Facts of Lakshwadeep
+                    </h1>
+                    <p class="section-content">
+                        <ul class="section-content-list">
+                            <li>
+                                Medieval history confirms the rule of Chola Empire in the Lakshdweep islands.
+                            </li>
+                            <li>
+                                These islands became colonies of Portuguese in middle of 16th century. In the late 18th century the control of these islands came to Tipu Sultan.
+                            </li>
+                            <li>
+                                The administrative headquarter was shifted from Calicut (Kerala) to Kavaratti in 1964.
+                            </li>
+                            <li>
+                                Out of 39 only 10 islands are inhabited and remaining others have no population.
+                            </li>
+                            <li>
+                                Coconut is the only crop of Economic importance.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="feature-section2">
+        <h1 class="feature-section2-title">
+            More about <i>Lakshwadeep.. </i>  <br><br>
+        </h1>
+        <div class="slideshow">
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Lakshwadeep/lakshwadeepp.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> Union territory : Lakshwadeep</div>
+            </div>
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Lakshwadeep/kavaratti.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> Territory's Capital : Kavaratti</div>
+            </div>
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Lakshwadeep/1district.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> No. of district of Territory : 1 </div>
+            </div>
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Lakshwadeep/andrott.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> Territory's largest district : Andrott </div>
+            </div>
+            <div class="mySlides">
+                <img src="~/Image/StateImage/Lakshwadeep/malayalamenglish.jpg" width="900" height="450" style="width:100%;">
+                <div class="caption"> Territory's official language : Malayalam & English </div>
+            </div>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+        <br><br>
+        <a href="#" class="BookTicketBtn" style="text-align:center; margin:auto;"> BOOK YOUR TICKETS TODAY!! </a>
+        <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 2500); // Change image every 2.5 seconds
+                    }
+        </script>
+    </div>
+    <!-- LAST SECTION -->
+    <br><br><br><br><br>
+    <!-- LAST SECTION -->
+    <div id="call-to-action">
+        <div class="showcase">
+            <div class="cols-1">
+                <h1 class="action-title">
+                    What are you waiting for??
+                </h1>
+                <p style="line-height:1.2em;">
+                    Book your tickets, pack your bags and
+                    Get.. Set.. GO!!
+                    The beautiful islands of Lakshwadeep is waiting for you!!
+                </p>
+                <P>
+                    <a href="#" class="BookHotelBtn"> BOOK A HOTEL TODAY!! </a>
+                </P>
+                <div class="text"> <p style="font-weight:1000; font-style:italic;"> Evening View - Amindivi Islands - Lakshwadeep </p></div>
+            </div>
+        </div>
+    </div>
+</div>
+
