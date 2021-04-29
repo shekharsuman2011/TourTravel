@@ -11,7 +11,7 @@ p {
 }
 
 #top-section-main {
-    background-image: url("~/Image/StateImage/DadraAndNagarHaveliAndDamanAndDiu/diuFort.jpg");
+    background-image: url("../../Image/StateImage/DadraAndNagarHaveliAndDamanAndDiu/diuFort.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 740px;
@@ -274,7 +274,7 @@ p {
 }
 
 #call-to-action {
-    background-image: url("~/Image/StateImage/DadraAndNagarHaveliAndDamanAndDiu/dadranagarhavelidamandiu.jpg");
+    background-image: url("../../Image/StateImage/DadraAndNagarHaveliAndDamanAndDiu/dadranagarhavelidamandiu.jpg");
     padding-bottom: 45px;
     background-repeat: no-repeat;
     background-size: cover;

@@ -11,7 +11,7 @@ p {
 }
 
 #top-section-main {
-    background-image: url("~/Image/StateImage/Chandigarh/pinjoreGarden.jpg");
+    background-image: url("../../Image/StateImage/Chandigarh/pinjoreGarden.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 740px;

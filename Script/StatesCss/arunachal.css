@@ -11,7 +11,7 @@ p {
 }
 
 #top-section-main {
-    background-image: url("~/Image/StateImage/ArunachalPradesh/Pesighat.jpg");
+    background-image: url("../../Image/StateImage/ArunachalPradesh/Pesighat.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 740px;
@@ -274,7 +274,7 @@ p {
 }
 
 #call-to-action {
-    background-image: url("~/Image/StateImage/ArunachalPradesh/itanagar.jpg");
+    background-image: url("../../Image/StateImage/ArunachalPradesh/itanagar.jpg");
     padding-bottom: 45px;
     background-repeat: no-repeat;
     background-size: cover;
