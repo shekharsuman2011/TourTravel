@@ -11,7 +11,7 @@ p {
 }
 
 #top-section-main {
-    background-image: url("elephantBeach.jpg");
+    background-image: url("~/Image/StateImage/AndamanAndNicobarIslands/elephantBeach.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 740px;
@@ -274,7 +274,7 @@ p {
 }
 
 #call-to-action {
-    background-image: url("andamanandnicobar.jpg");
+    background-image: url("~/Image/StateImage/AndamanAndNicobarIslands/andamanandnicobar.jpg");
     padding-bottom: 45px;
     background-repeat: no-repeat;
     background-size: cover;
