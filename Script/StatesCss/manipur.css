@@ -11,7 +11,7 @@ p {
 }
 
 #top-section-main {
-    background-image: url("Khongjom.jpg");
+    background-image: url("~/Image/StateImage/Manipur/Khongjom.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 740px;
@@ -146,7 +146,7 @@ p {
 }
 
 #call-to-action {
-    background-image: url("imphai.jpg");
+    background-image: url("~/Image/StateImage/Manipur/imphai.jpg");
     padding-bottom: 45px;
     background-repeat: no-repeat;
     background-size: cover;
