@@ -11,7 +11,7 @@ p {
 }
 
 #top-section-main {
-    background-image: url("khardungLal.jpg");
+    background-image: url("~/Image/StateImage/Ladakh/khardungLal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 740px;
@@ -274,7 +274,7 @@ p {
 }
 
 #call-to-action {
-    background-image: url("ladakh.jpg");
+    background-image: url("~/Image/StateImage/Ladakh/ladakh.jpg");
     padding-bottom: 45px;
     background-repeat: no-repeat;
     background-size: cover;
