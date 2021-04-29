@@ -11,7 +11,7 @@ p {
 }
 
 #top-section-main {
-    background-image: url("lonavala.jpg");
+    background-image: url("~/Image/StateImage/Maharashtra/lonavala.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 740px;
@@ -146,7 +146,7 @@ p {
 }
 
 #call-to-action {
-    background-image: url("mumbai.jpg");
+    background-image: url("~/Image/StateImage/Maharashtra/mumbai.jpg");
     padding-bottom: 45px;
     background-repeat: no-repeat;
     background-size: cover;
